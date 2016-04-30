@@ -25,6 +25,5 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 ### Information
 
 #### Gears
-[Pololu 250:1 Micro Metal Gearmotor MP with Extended Motor Shaft](https://www.pololu.com/product/2384) Small motor with gearbox.
-
-[Solarbotics GM15 25:1 6mm Planetary Gear Pager Motor](https://solarbotics.com/product/gm15/) Another small motor with gearbox.
+* [Pololu 250:1 Micro Metal Gearmotor MP with Extended Motor Shaft](https://www.pololu.com/product/2384) Small motor with gearbox.
+* [Solarbotics GM15 25:1 6mm Planetary Gear Pager Motor](https://solarbotics.com/product/gm15/) Another small motor with gearbox.
