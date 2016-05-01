@@ -23,7 +23,7 @@ var secondHand = minuteHand;
 var handStart = -10;
 
 function setup() {
-// set the general parameters for drawing:
+  // set the general parameters for drawing:
   createCanvas(windowWidth, windowHeight);
   smooth();
   strokeWeight(2);
@@ -31,34 +31,31 @@ function setup() {
 }
 
 function draw() {
-  background(255);              // white background
+  background(255); // white background
   translate(width / 2, height / 2); // move to the center of the window
-  rotate(3 * PI / 2);           // rotate drawing 90 degrees
-  
-  // draw second hand:
-  push();
-  rotate(second() * (PI / 30)); // rotate to draw second hand
-  stroke('#ccc');               // set line color
-  line(handStart, 0, secondHand + handStart, 0);  
-  pop();
+  rotate(3 * PI / 2); // rotate drawing 270 degrees to get 0 at the top
 
+  // draw second hand:
+  drawHand(second(), '#ccc', secondHand, 60);
   // draw minute hand:
-  push();
-  rotate(minute() * PI / 30);   // rotate to draw minute hand
-  stroke('#ace');               // set line color
-  line(handStart, 0, minuteHand + handStart, 0);
-  pop();
-  
+  drawHand(minute(), '#ace', minuteHand, 60);
   // draw hour hand:
-  push();                       
-  rotate(hour() * (PI / 6));    // rotate to draw hour hand
-  line(handStart, 0, hourHand + handStart, 0);
-  pop();
+  drawHand(minute(), '#ace', hourHand, 12);
 
   // draw arc from 0 to current second:
   push();
-  stroke("#5597cf");            // set arc color
-  noFill();                     // no fill for the arc
+  stroke("#5597cf"); // set arc color
+  noFill(); // no fill for the arc
   arc(0, 0, clockRadius, clockRadius, 0, second() * PI / 30);
+  pop();
+}
+
+// this function draws a hand, given the unit value, hand color, length,
+// and how many divisions in a circle (e.g. minute: 60, hour: 12):
+function drawHand(unitValue, handColor, handLength, divisions) {
+  push();
+  rotate(unitValue * 2 * PI / divisions); // rotate to draw hand
+  stroke(handColor); // set line color
+  line(handStart, 0, handLength + handStart, 0);
   pop();
 }
