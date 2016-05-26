@@ -36,10 +36,25 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 [Sasa Clock](http://thorunndesign.com/#/sasa/) by Thorunn Arnadottir. Counts time using a series of beads, not unlike a rosary.
 
+[Aeroport Orly Ouest Horloge Astronomique](http://www.patrimoine-horloge.fr/as-orlyo.html) by Alfred Faullimel and others. A large yet compact depiction of several astronomic properties of the earth, moon, sun and solar system.
+
+[Accutron patent](http://www.decadecounter.com/accutron/US3162006.pdf), one of several, that shows the electromagnetically driven tuning fork timing mechanism. [This page](http://www.decadecounter.com/accutron/docs.htm) has a list of several more Accutron documents.
+
+[Hodinkee](https://www.hodinkee.com/) has hi-res pictures of fancy watches.
+
+[Christiaan van der Klaauw](http://www.klaauw.com/) specializes in astronomical complications. JF - I like ones with spherical (rather than flat) moon phase indicators. 
+
+[US Naval Observatory](http://aa.usno.navy.mil/imagery/moon) shows what the moon looks like right now.
+
 
 ### Information
 
 #### Gears
 * [Pololu 250:1 Micro Metal Gearmotor MP with Extended Motor Shaft](https://www.pololu.com/product/2384) Small motor with gearbox.
+* [Pololu tiny NEMA 08 Stepper](https://www.pololu.com/product/1204) one of the smallest stepper sizes outside of the wimpy 28BYJs
 * [Solarbotics GM15 25:1 6mm Planetary Gear Pager Motor](https://solarbotics.com/product/gm15/) Another small motor with gearbox.
-* McMaster bevel gears
+* [McMaster bevel gears](http://www.mcmaster.com/#standard-gears/=12kup6f)
+* [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled)
+* [Precision Microdrive](https://www.precisionmicrodrives.com/product-catalogue) is a large OEM provider for small DC gearmotors and other actuators.
+* [Anaheim Automation](https://www.anaheimautomation.com/products/stepper/stepper-motors-list.php?cID=19) suypplies all kinds of stepper motors, including tiny NEMA08 and NEMA11 motors.
+* [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms.
