@@ -52,6 +52,8 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
+[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. 
+
 ### Parts
 
 #### Gears
@@ -69,5 +71,5 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 #### Mechanical parts
 
 * [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled)
-* [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms.
+* [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms. Also available through [VXB](http://www.vxb.com/Hardware-Turntables-Lazy-Susans-Online-s/246.htm)
 
