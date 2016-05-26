@@ -48,13 +48,20 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 
 ### Information
+[From Sundials to Atonic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
+[ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
+
+### Parts
 
 #### Gears
 * [Pololu 250:1 Micro Metal Gearmotor MP with Extended Motor Shaft](https://www.pololu.com/product/2384) Small motor with gearbox.
-* [Pololu tiny NEMA 08 Stepper](https://www.pololu.com/product/1204) one of the smallest stepper sizes outside of the wimpy 28BYJs
 * [Solarbotics GM15 25:1 6mm Planetary Gear Pager Motor](https://solarbotics.com/product/gm15/) Another small motor with gearbox.
 * [McMaster bevel gears](http://www.mcmaster.com/#standard-gears/=12kup6f)
-* [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled)
+#### Motors
+* [Pololu tiny NEMA 08 Stepper](https://www.pololu.com/product/1204) one of the smallest stepper sizes outside of the wimpy 28BYJs
 * [Precision Microdrive](https://www.precisionmicrodrives.com/product-catalogue) is a large OEM provider for small DC gearmotors and other actuators.
 * [Anaheim Automation](https://www.anaheimautomation.com/products/stepper/stepper-motors-list.php?cID=19) suypplies all kinds of stepper motors, including tiny NEMA08 and NEMA11 motors.
+#### Mechanical parts
+* [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled)
 * [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms.
+
