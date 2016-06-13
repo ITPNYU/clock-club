@@ -1,0 +1,109 @@
+﻿Clock Mechanism
+
+
+2 Shaft Prototype
+
+
+Two nested shafts controlled by two independent stepper motors.
+
+
+Made mostly from off the shelf components and laser cut panels.  The most handmade part is the ⅜” tube with bushing ends.  I glued up the parts and turned down to the proper diameter on the metal lathe. 
+
+
+Vendors
+
+
+Timing Pulleys
+        Aluminum GT2 Timing Pulley - 6mm Belt - 36 Tooth - 5mm Bore (4)
+        Adafruit
+        https://www.adafruit.com/products/1253
+
+
+Timing Belts
+        GT2 Belting - Closed Loop (2)
+        Inventables
+        https://www.inventables.com/technologies/gt2-belting-closed-loop
+
+
+Rod
+        Steel Shaft 5mm Diam, 200mm long
+        McMaster
+        http://www.mcmaster.com/#6112k37/=10t6qmy
+
+
+Tube
+        Copper Tube, ⅜” OD
+        McMaster
+http://www.mcmaster.com/#5175k121/=128m7u9
+
+
+Bushings
+        5mm diam bushing (2)
+        McMaster
+        http://www.mcmaster.com/#6659k66/=10t6ihj
+
+
+Stepper Motor
+        Small Reduction Stepper Motor - 12VDC 32-Step 1/16 Gearing (2)
+        Adafruit
+        https://www.adafruit.com/products/918
+
+
+Bearing
+        Flanged Bearing ⅜” shaft diam, ⅞” outer diam
+        McMaster
+        http://www.mcmaster.com/#6384k344/=12a8vmo
+
+
+Shaft Collar
+        ⅜” bore
+        McMaster
+        http://www.mcmaster.com/#6432k14/=12c563k
+        
+        5mm bore
+        McMaster
+        http://www.mcmaster.com/#57485k65/=10t6ngr
+
+
+Hubs
+        Mounting Hub 5mm
+        Pololu
+        https://www.pololu.com/product/1203
+        
+        Mounting Hub ⅜”
+        SparkFun
+        https://www.sparkfun.com/products/12306
+                Or
+        Servo City
+        https://www.servocity.com/html/0_770__set_screw_hubs.html#.VzC3OBOAOko
+
+
+Standoffs
+Screws
+Acrylic
+
+
+
+
+
+
+
+
+Files
+
+
+
+
+Images
+https://www.flickr.com/photos/blightdesign/albums/72157665581894433
+
+
+
+
+
+
+Resources
+
+
+Belts and Pulley Vendors
+http://reprap.org/wiki/Belts_and_Pulleys
