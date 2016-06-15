@@ -42,17 +42,38 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 [Hodinkee](https://www.hodinkee.com/) has hi-res pictures of fancy watches.
 
-[Christiaan van der Klaauw](http://www.klaauw.com/) specializes in astronomical complications. JF - I like ones with spherical (rather than flat) moon phase indicators. 
+[Christiaan van der Klaauw](http://www.klaauw.com/) specializes in astronomical complications. JF - I like ones with spherical (rather than flat) moon phase indicators.
 
-[US Naval Observatory](http://aa.usno.navy.mil/imagery/moon) shows what the moon looks like right now.
+[Luminance](http://ariellehein.com/) Arielle Hein's clock reflects sunrise and set. 
 
+[Continue Time](http://sandermulder.com/continue_time.html) Sander Mulder elegantly combines all three hands of a clock.
+
+[Bomi Kim](http://www.new-startups.com/turn-anything-into-a-clock/) rendered what Ben is making functional - a generic two-hand mechanism. 
+
+[Tom Shannon](http://www.google.com/patents/US4579460) synchronous world clock with Fuller-Sadao map.
+
+[QlockTwo](http://qlocktwo.com/) a word clock.
+
+[Clock instructable](http://www.instructables.com/id/How-to-build-C3Jr-a-sophisticated-word-clock/) detailing several more word clocks, including C3Jr mentioned in the first ITP Camp Clock Club session.
+
+[NY Horological Society](http://www.hs-ny.org/) teaches watch-making classes.
+
+[Equinox](http://willware.blogspot.com/2008/07/3d-printer-project-at-victoria.html) is a sun-powered 3D printer similar to an armillary sphere (see below).
+
+[One Day Poem Pavilion](http://people.artcenter.edu/~jsong5/thesis/index.html) uses the sun's motion to project and animate a poem that changes through the course of a day and over seasons. 
 
 ### Information
 [From Sundials to Atonic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
-[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. 
+[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong.
+
+[Armillary Sphere](https://vimeo.com/55019500) An animation for the Museum of the History of Science Oxford explaining armillary spheres.
+
+[Astrolabe](https://www.ted.com/talks/tom_wujec_demos_the_13th_century_astrolabe#t-2360) Tom Wujec explains astrolabes.
+
+[US Naval Observatory](http://aa.usno.navy.mil/imagery/moon) shows what the moon looks like right now.
 
 ### Parts
 
@@ -72,4 +93,5 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 * [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled)
 * [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms. Also available through [VXB](http://www.vxb.com/Hardware-Turntables-Lazy-Susans-Online-s/246.htm)
+* [Klockit](http://www.klockit.com/) has raw clock parts. 
 
