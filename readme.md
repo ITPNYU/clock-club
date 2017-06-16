@@ -14,6 +14,8 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 [The 10,000 Year Clock](http://longnow.org/clock/) by the Longnow Foundation. Originated by Danny Hillis, Brian Eno, and Kevin Kelly, the 10K year clock is a monument intended to help encourage very long-term thinking. The basic premise of the Longnow foundation is this: civilization has been around ~10,000 years. If we plan to make it another 10,000, we need to get better at long term thinking.
 
+[Paolo Salvagione](https://www.autodesk.com/artist-in-residence/artists/paolo-salvagione) works on the Long Now clock and was a resident at Pier 9.
+
 [Bulbdial Monochrome Kit](http://shop.evilmadscientist.com/productsmenu/791#) One of Evil Mad Scientist Labs' clock kits. Does a wonderful job at projecting the hands of the clock as shadows.
 
 [Eclisse Table Lamp](http://www.ylighting.com/artemide-eclisse-table-lamp.html) by Artemide. Lamp that takes inspiration from the phases of the moon.
@@ -62,6 +64,11 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 [One Day Poem Pavilion](http://people.artcenter.edu/~jsong5/thesis/index.html) uses the sun's motion to project and animate a poem that changes through the course of a day and over seasons.
 
+[Quadrature](http://quadrature.co/) has inspiring clock-adjacent work, including [Voyager](http://quadrature.co/work/voyager/) and [How long is a minute?](http://quadrature.co/work/wie-lang-ist-eine-minute/)
+
+[The Present](https://www.kickstarter.com/projects/scottthrift/the-present) is a one year clock. The kickstarter mentions a circuit to slow the second tick down; this [Design Boom article](http://www.designboom.com/technology/worlds-first-year-long-clock-thepresent-by-m-ss-ng-p-eces/) mentions custom German mechanisms but those also seem to show the customization of a different MCU.
+
+
 ### Information
 [From Sundials to Atonic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
 
@@ -77,6 +84,9 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 [US Naval Observatory](http://aa.usno.navy.mil/imagery/moon) shows what the moon looks like right now.
 
+[How we Got To Now](https://www.amazon.com/How-We-Got-Now-Innovations/dp/1594633932) by Steven Johnson has come up a lot.
+
+[A Sideways Look at Time](https://www.amazon.com/Sideways-Look-at-Time/dp/1585423068/) by Jay Griffiths.
 
 ### Parts
 
@@ -85,6 +95,7 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 * [Pololu 250:1 Micro Metal Gearmotor MP with Extended Motor Shaft](https://www.pololu.com/product/2384) Small motor with gearbox.
 * [Solarbotics GM15 25:1 6mm Planetary Gear Pager Motor](https://solarbotics.com/product/gm15/) Another small motor with gearbox.
 * [McMaster bevel gears](http://www.mcmaster.com/#standard-gears/=12kup6f)
+* Metal business card suppliers may be a means of getting precise small-run small metal parts.
 
 #### Motors
 
@@ -94,6 +105,12 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 #### Mechanical parts
 
-* [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled)
+* [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled). Brass also available.
 * [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms. Also available through [VXB](http://www.vxb.com/Hardware-Turntables-Lazy-Susans-Online-s/246.htm)
 * [Klockit](http://www.klockit.com/) has raw clock parts.
+* The [Takane](https://www.clockparts.com/time-and-tide-movement/) tide clock adds a reduction stage to the output of a more-or-less standard mechanism. It consists of a stack of gears in the ratio 57:58:59, thus reducing a 12 hour period (solar half-day) to 12h+25.2m (lunar half-day, tidal period). The 58 tooth gear is visible hanging below the main assembly. By running this mechanism at half speed, the hour hand corresponds to sun position and tide hand to moon position. Alternately, it may be possible to add the tide stage to an existing 24-hour movement for the same effect.
+
+#### Faces/Dials
+
+* Laser etching powder-coated parts - laser removes paint.
+* The opposite - laser fixes paint to part. Brand name?
