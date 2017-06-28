@@ -44,6 +44,19 @@ Drawing of the minute hand, with fillets' radius shown.
 To mill the hands, we attached the bronze sheet to a one-sided copper-clad board for making printed circuits. It worked as an effective spoil board. We attached the bronze to the board and the board to the mill's table with double-stick tape. Then we milled the hands with a 1/16" bit. Afterwards, an acetone bath for 3 minutes made it easier to remove the hands from the board.
 When removing the hands, we learned to remove gently, from the side, not from from the end.
 
+![Copper PCB spoilboard from several experiments](img/copper-spoilboard-for-hand-milling.jpeg)
+
+This copper-clad PCB was used for several iterations of hands.
+
 ## Finishing
 
-We tumbled the hands in a barrel of screws and nuts to soften the edges.
+We tumbled the hands in a barrel of brass screws and nuts overnight to soften the edges. It smoothed the edges off the hands nicely, and didn't bend even the most delicate hands, which was a pleasant surprise.
+
+![Hands mounted on the clock shaft](img/hands-on-clock-shaft.jpeg)
+
+Hands mounted on the clock shaft for fit before tumbling.
+
+
+![Brass hands after tumbling](img/brass-hands-after-tumbling.jpeg)
+
+A collection of brass hands after tumbling in a barrel of brass screws.

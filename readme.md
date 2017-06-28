@@ -114,3 +114,4 @@ The first rule of Clock Club is no one checks the time at Clock Club.
 
 * Laser etching powder-coated parts - laser removes paint.
 * The opposite - laser fixes paint to part. Brand name?
+* [Milling your own clock hands](milling-custom-hands.md) a brief tutorial
