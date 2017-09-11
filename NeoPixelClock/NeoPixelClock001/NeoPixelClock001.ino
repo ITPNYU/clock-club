@@ -12,7 +12,7 @@
 */
 #include <Adafruit_NeoPixel.h>
 
-const int neoPixelPin = 13;  // control pin
+const int neoPixelPin = 5;  // control pin
 const int numPixels = 60;    // number of pixels
 
 // set up strip:
