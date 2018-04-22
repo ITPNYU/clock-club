@@ -1,7 +1,8 @@
 # p5.js Analog Clock Examples
 
-A collection of analog clock designs done in JavaScript using  [p5.js]{https://p5js.org}
-## See the CLocks in Action
+A collection of analog clock designs done in JavaScript using  [p5.js](https://p5js.org)
+
+## See the Clocks in Action
 
 [clock001](https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/clock001/index.html)
 
