@@ -1,12 +1,23 @@
-# Timepieces
+# Clock Club
 
-A collection of resources for Clock Club.
+*The first rule of Clock Club is that no one checks the time at Clock Club.*
 
-The first rule of Clock Club is no one checks the time at Clock Club.
+This repository contains information on making clocks and timepieces.
 
-## Links
+## What You Should Know In Advance
 
-### Insipiration
+This repo is written for students and scholars of interactive design. It assumes you know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs like NYU's [ITP](https://itp.nyu.edu), where this repo was developed. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2017).
+
+## Tools and Platforms Used in This Repository
+
+* [Arduino](https://www.arduino.cc)
+* [p5.js](http://p5js.org/)
+* [Vectorworks](http://www.vectorworks.net/) - we rely on the free educational version of Vectorworks' software for [students and educators](http://www.vectorworks.net/education)
+* [Bantam Tools](https://www.bantamtools.com/) (formerly Othermill) CNC machines
+
+
+
+### Insipiration Links
 
 [The Chronophage](http://www.johnctaylor.com/the-chronophage/) by John C. Taylor. An analog clock with an insect theme. How he creates the lighting effect without changing the lights is interesting.
 
