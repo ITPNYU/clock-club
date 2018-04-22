@@ -1,15 +1,16 @@
 /*
-  Compile Time Set
+  String Time Set
 
-  The C compiler used by the Arduino IDE has two special strings,
-  __TIME__ and __DATE__. These return the time and date of the computer
-  that compiled the sketch (i.e. your laptop). The strings look like this:
+  This example uses data input from the serial port to set the time.
+  The input string from the serial port should look like this:
 
   09:55:33
-  Apr 22 2018
 
-  created 28 May 2016
-  updated 22 April 2017
+  to get the time on a POSIX (MacOS, Linux, et. al) command line, type:
+  date "+%H:%M:%S"
+  this will give you a string formatted like the compiler __TIME__ string
+  
+  created 22 April 2018
   by Tom Igoe
 */
 // time
@@ -21,20 +22,19 @@ long lastCount = 0; // count of millis since last second
 void setup() {
   Serial.begin(9600);   // initialize serial communication
   while (!Serial);      // stop everything until serial monitor is open
-
 }
 
 void loop() {
   // to get the time on a POSIX (MacOS, Linux, et. al) command line, type:
   // date "+%H:%M:%S"
   // this will give you a string formatted like the compiler __TIME__ string:
-  
+
   if (Serial.available() > 8) {   // full time string is 8 characters: HH:MM:SS
     hours = Serial.parseInt();    // convert hours to an int
     minutes = Serial.parseInt();  // convert minutes to an int
     seconds = Serial.parseInt();  // convert seconds to an int
   }
-  
+
   // count the milliseconds, update second when 1000ms have passed:
   if (millis() - lastCount > 1000) {
     seconds++;
