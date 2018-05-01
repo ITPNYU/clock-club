@@ -87,7 +87,7 @@ This repo is written for students and scholars of interactive design. It assumes
 
 
 ### Information
-[From Sundials to Atonic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
+[From Sundials to Atomic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
