@@ -1,0 +1,25 @@
+Assembly Instructions
+
+Mill all acrylic parts using the provided svg files: 
+	mounting_plate_top.svg
+	mounting_plate_mid.svg
+	mounting_plate_bot.svg
+	motor_clipA.svg
+	motor_clipB.svg
+
+Snap motor_clipA onto each of the motors.
+
+Insert one motor into the bottom plate and slip motor_clipB onto the bottom of the plate.  Attach 5 screws and nuts.
+
+Attach shaft coupler to motor.
+
+Attach 4mm rod to shaft coupler.
+
+Insert the other stepper motor into mounting_plat_mid and slip motor_clipB onto the bottom of the plate.  Attach 4 screws loosely with nuts.
+
+Insert sleeve bearing into the mid plate and top plate.
+
+Attach the top [;ate to the mid plate using the standoffs.
+
+Insert the tube between the bearings, it should rotate freely.
+
