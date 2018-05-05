@@ -20,7 +20,7 @@ As Matt describes in his post, you should use resistors on your output pins to l
 * 2 x 1N5226 3.3V Zener diodes (or other 3.3V Zener diode), e.g. Digikey [1N5226BFSCT-ND](https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=259969191&uq=636611086112328034)
 
 
-![Analog Clock Control, schematic view](img/clock_control_schem.png "Analog Clock Control, schematic view")
+![Analog Clock Control, schematic view](img/clock_control_schem@3x.png "Analog Clock Control, schematic view")
 
 Analog Clock Control, schematic view. This works for most microcontrollers or embedded Linux boards.
 
