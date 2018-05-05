@@ -15,10 +15,14 @@ Similarly, there is a limit to how frequently you can pulse the pins. Less than 
 
 As Matt describes in his post, you should use resistors on your output pins to limit the current, and diodes to prevent back voltage spikes  from the solenoid. I used 3.3V zener diodes on my circuit, and it seems to be very stable. The circuit below works for both Pi and Arduino.
 
-![Analog Clock Controlled by Uno, breadboard view](img/clock_control_Uno_bb.png "Analog Clock Controlled by Uno, breadboard view")
+![Analog Clock Control, schematic view](img/clock_control_schem.png "Analog Clock Control, schematic view") Analog Clock Control, schematic view. This works for most microcontrollers or embedded Linux boards.
 
 
-![Analog Clock Controlled by Raspberry Pi Zero, breadboard view](img/clock_control_Pi_bb.png "Analog Clock Controlled by Raspberry Pi Zero, breadboard view")
+![Analog Clock Controlled by Uno, breadboard view](img/clock_control_Uno_bb.png "Analog Clock Controlled by Uno, breadboard view") Analog Clock Control from an Arduino Uno, breadboard view
 
+
+![Analog Clock Controlled by Raspberry Pi Zero, breadboard view](img/clock_control_Pi_bb.png "Analog Clock Controlled by Raspberry Pi Zero, breadboard view") Analog Clock Control from an Raspberry Pi Zero, breadboard view
+
+Images generated using [Fritzing](http://www.fritzing.org) and Illustrator. 
 
 This repository contains two Arduino-based examoples, one that [works on any Arduino-compatible board](AnalogClockControl), and [one for an M0-based board](RTCAnalogClockControl), which uses the realtime clock on that processor. It also contains [an example using node.js](nodejsAnalogClockControl) and the [onoff](https://www.npmjs.com/package/onoff#writevalue-callback) package, which affords control of the GPIO pins on a Raspberry Pi or BeagleBone.
