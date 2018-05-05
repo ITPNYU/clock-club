@@ -12,6 +12,7 @@ This repo is written for students and scholars of interactive design. It assumes
 
 * [Arduino](https://www.arduino.cc)
 * [p5.js](http://p5js.org/)
+* [Raspberry Pi](http://raspberrypi.org/)
 * [Vectorworks](http://www.vectorworks.net/) - we rely on the free educational version of Vectorworks' software for [students and educators](http://www.vectorworks.net/education)
 * [Bantam Tools](https://www.bantamtools.com/) (formerly Othermill) CNC machines
 
