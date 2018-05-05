@@ -1,0 +1,26 @@
+{
+  "name": "analog-clock-control",
+  "version": "0.0.1",
+  "description": "A program to control an analog clock from two I/O pins",
+  "dependencies" :
+    { "onoff" : "*"
+    },
+  "main": "gpioControl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITPNYU/clock-club.git"
+  },
+  "keywords": [
+    "analog clock",
+    "GPIO"
+  ],
+  "author": "Tom Igoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ITPNYU/clock-club/issues"
+  },
+  "homepage": "https://github.com/ITPNYU/clock-club#readme"
+}
