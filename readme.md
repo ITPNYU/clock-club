@@ -20,8 +20,9 @@ This repo is written for students and scholars of interactive design. It assumes
 * [Setting the Time on a Microcontroller-Driven Clock Project](https://github.com/ITPNYU/clock-club/tree/master/Microcontroller_Time_Setting_Methods)
 * [Programmable LED Clocks](https://github.com/ITPNYU/clock-club/tree/master/Programmable_LED_examples)
 * [Clocks in JavaScript using p5.js](https://github.com/ITPNYU/clock-club/tree/master/P5JS_examples)
+* [Microcontroller-Driven Quartz Clocks](https://github.com/ITPNYU/clock-club/tree/master/Analog_Clock_Control)
 * [Making Your Own Clock Hands](https://github.com/ITPNYU/clock-club/tree/master/Making_Custom_Clock_Hands)
-* [Two Stepper Motor-Driven Clock Mechanism]()
+* [Two Stepper Motor-Driven Clock Mechanism](https://github.com/ITPNYU/clock-club/tree/master/two_stepper_clock_mechanism)
 
 ### Insipiration Links
 
