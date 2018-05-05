@@ -31,6 +31,7 @@ Analog Clock Control from an Arduino Uno, breadboard view
 
 
 ![Analog Clock Controlled by Raspberry Pi Zero, breadboard view](img/clock_control_Pi_bb.png "Analog Clock Controlled by Raspberry Pi Zero, breadboard view")
+
 Analog Clock Control from an Raspberry Pi Zero, breadboard view
 
 Images generated using [Fritzing](http://www.fritzing.org) and Illustrator.
