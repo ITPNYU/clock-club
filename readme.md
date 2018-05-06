@@ -18,9 +18,9 @@ This repo is written for students and scholars of interactive design. It assumes
 
 ## Projects In This Repository
 
-* [Setting the Time on a Microcontroller-Driven Clock Project](https://github.com/ITPNYU/clock-club/tree/master/Microcontroller_Time_Setting_Methods)
-* [Programmable LED Clocks](https://github.com/ITPNYU/clock-club/tree/master/Programmable_LED_examples)
 * [Clocks in JavaScript using p5.js](https://github.com/ITPNYU/clock-club/tree/master/P5JS_examples)
+* [Programmable LED Clocks](https://github.com/ITPNYU/clock-club/tree/master/Programmable_LED_examples)
+* [Setting the Time on a Microcontroller-Driven LED (or other) Clock Project](https://github.com/ITPNYU/clock-club/tree/master/Microcontroller_Time_Setting_Methods)
 * [Microcontroller-Driven Quartz Clocks](https://github.com/ITPNYU/clock-club/tree/master/Analog_Clock_Control)
 * [Making Your Own Clock Hands](https://github.com/ITPNYU/clock-club/tree/master/Making_Custom_Clock_Hands)
 * [Two Stepper Motor-Driven Clock Mechanism](https://github.com/ITPNYU/clock-club/tree/master/two_stepper_clock_mechanism)
@@ -41,21 +41,17 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [Working Watch Cufflinks](http://www.amazon.com/Watch-Working-Round-Cufflinks-Presentation/dp/B00PJ1P9TC/ref=sr_1_4?ie=UTF8&qid=1461955802&sr=8-4&keywords=working+watch+cufflinks) Why not?
 
-[Long Distance Watch](https://www.dezeenwatchstore.com/shop/mens-watches/long-distance-1-0/) Kitmen Keung's dual-face watch, so you can always know what time it is at home.
+[Long Distance Watch](http://www.kitmenkeung.com/) Kitmen Keung's dual-face watch, so you can always know what time it is at home.
 
 [Slow Watch](https://www.slow-watches.com/the-store/slow-jo-38mm/slow-jo-22-all-black-mesh.html) Watch with a single hand that takes 25 hours to go around the face. By Slow Watches.
 
 [11+ WORLD CLOCK](http://store.leibal.com/products/11-world-clock) by Leibal. Shows time in different time zones by rolling the clock.
 
-[Tumbler Alarm clock](http://store.leibal.com/collections/bathroom/products/norm-tumbler-alarm-clock) by Norm. Alarm clock that you turn off by turning it over.
-
-[Felt Wall Clock](http://store.leibal.com/collections/bathroom/products/felt35) by Sebastian Herkner. A felt clock.
-
 [A History of Braun part 2: Timepieces](http://www.core77.com/posts/24660/a-history-of-braun-design-part-2-timepieces-24660) Article on Dieter Rams' clock designs for Braun.
 
 [Orrery Maker](http://www.orrerymaker.com/librarybooks.htm)
 
-[Sasa Clock](http://thorunndesign.com/#/sasa/) by Thorunn Arnadottir. Counts time using a series of beads, not unlike a rosary.
+[Sasa Clock](http://thorunndesign.com/independent-work/#/sasa/) by Thorunn Arnadottir. Counts time using a series of beads, not unlike a rosary.
 
 [Aeroport Orly Ouest Horloge Astronomique](http://www.patrimoine-horloge.fr/as-orlyo.html) by Alfred Faullimel and others. A large yet compact depiction of several astronomic properties of the earth, moon, sun and solar system.
 
@@ -69,7 +65,7 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [Continue Time](http://sandermulder.com/continue_time.html) Sander Mulder elegantly combines all three hands of a clock.
 
-[Bomi Kim](http://www.new-startups.com/turn-anything-into-a-clock/) rendered what Ben is making functional - a generic two-hand mechanism.
+[Bomi Kim](http://www.new-startups.com/turn-anything-into-a-clock/) rendered what [Ben is making](two_stepper_clock_mechanism) functional - a generic two-hand mechanism.
 
 [Tom Shannon](http://www.google.com/patents/US4579460) synchronous world clock with Fuller-Sadao map.
 
@@ -83,13 +79,13 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [One Day Poem Pavilion](http://people.artcenter.edu/~jsong5/thesis/index.html) uses the sun's motion to project and animate a poem that changes through the course of a day and over seasons.
 
-[Quadrature](http://quadrature.co/) has inspiring clock-adjacent work, including [Voyager](http://quadrature.co/work/voyager/) and [How long is a minute?](http://quadrature.co/work/wie-lang-ist-eine-minute/)
+[Quadrature](http://quadrature.co/) has inspiring clock-adjacent work, including [Voyager](http://quadrature.co/work/voyager/)
 
 [The Present](https://www.kickstarter.com/projects/scottthrift/the-present) is a one year clock. The kickstarter mentions a circuit to slow the second tick down; this [Design Boom article](http://www.designboom.com/technology/worlds-first-year-long-clock-thepresent-by-m-ss-ng-p-eces/) mentions custom German mechanisms but those also seem to show the customization of a different MCU.
 
 
 ### Information
-[From Sundials to Atonic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
+[From Sundials to Atomic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
@@ -100,8 +96,6 @@ This repo is written for students and scholars of interactive design. It assumes
 [Astrolabe](https://www.ted.com/talks/tom_wujec_demos_the_13th_century_astrolabe#t-2360) Tom Wujec explains astrolabes.
 
 [Paper Astrolabes](http://www.mhs.ox.ac.uk/students/03to04/Astrolabes/Starholder_intro.html) An exhibit of paper astrolabes from the 1500's, with instructions on building them.
-
-[US Naval Observatory](http://aa.usno.navy.mil/imagery/moon) shows what the moon looks like right now.
 
 [How we Got To Now](https://www.amazon.com/How-We-Got-Now-Innovations/dp/1594633932) by Steven Johnson has come up a lot.
 
@@ -120,7 +114,17 @@ This repo is written for students and scholars of interactive design. It assumes
 
 * [Pololu tiny NEMA 08 Stepper](https://www.pololu.com/product/1204) one of the smallest stepper sizes outside of the wimpy 28BYJs
 * [Precision Microdrive](https://www.precisionmicrodrives.com/product-catalogue) is a large OEM provider for small DC gearmotors and other actuators.
-* [Anaheim Automation](https://www.anaheimautomation.com/products/stepper/stepper-motors-list.php?cID=19) suypplies all kinds of stepper motors, including tiny NEMA08 and NEMA11 motors.
+* [Anaheim Automation](https://www.anaheimautomation.com/products/stepper/stepper-motors-list.php?cID=19) supplies all kinds of stepper motors, including tiny NEMA08 and NEMA11 motors.
+
+#### Concentric Shaft Dual Stepper motors
+
+If you want to make a clock with independent hands, you need one of these. You can [make your own](two_stepper_clock_mechanism), or buy one of these:
+* [Concentric Shaft Dual Stepper Motors](http://www.jukenswisstech.com/products/x40/) by Juken Swiss
+* [VID28-05](http://www.vid.wellgain.com/product.aspx?sortid=26) Instrument panel dual stepper
+ motor.  
+ * AN [eBay source](https://www.ebay.com/itm/VID28-05-Instrument-Micro-Cluster-Dual-Shaft-Stepper-Motor-/232443758214) for them.
+ * An [Aliexpress](https://www.aliexpress.com/item/Micro-stepping-motor-BKA30D-R5-Biaxially-meter-motor-BKA30D-stepper-motor-same-as-VID28-05-New/32829075642.html) source for them.
+ * [Hackaday teardown](https://hackaday.io/project/7872-clock-clock-clone) on making your own [ClockClock](https://clockclock.com/) clone.
 
 #### Mechanical parts
 
