@@ -1,7 +1,7 @@
 
 # Controlling an Analog Quartz Clock From a Microcontroller
 
-A quartz analog clock engine is driven by a low-power solenoid which drives the gears. Matt Mets described this process well in [this blog post](http://www.cibomahto.com/2008/03/controlling-a-clock-with-an-arduino/). You can do this from a simple microcontroller like an Arduino or Arduino-compatible derivative, or from an embedded Linux processor like a Raspberry Pi or BeagleBone, as long as you have digital I/O pins (GPIO) to connect to the solenoid's pins. Most quartz clocks run on one or two AA batteries, meaning that the solenoid runs on either 1.5V or 3V at most. As long as your controller's GPIO pins can output this voltage level, you're all set.
+A quartz analog clock engine is driven by a low-power solenoid which drives the gears. Matt Mets described this process well in [this blog post](http://www.cibomahto.com/2008/03/controlling-a-clock-with-an-arduino/). You can do this from a microcontroller like an [Arduino](https://www.arduino.cc/) or Arduino-compatible derivative, or from an embedded Linux processor like a [Raspberry Pi](https://www.raspberrypi.org/) or [BeagleBone](http://beagleboard.org/bone), as long as you have digital I/O pins (GPIO) to connect to the solenoid's pins. Most quartz clocks run on one or two AA batteries, meaning that the solenoid runs on either 1.5V or 3V at most. As long as your controller's GPIO pins can output this voltage level, you're all set.
 
 The process works like this:
 
@@ -9,7 +9,7 @@ The process works like this:
 2. Pulse the other side low-to-high-to-low for approximately 10 milliseconds.
 3. Hold the second side low, and pulse the first side.
 
-The width of the pulse will depend on your clock motor and on the voltage of your controller. On an Arduino Uno or Raspberry Pi, 10 milliseconds seems to work well. On an M0-based board like the Arduino MKRZero or Adafruit Feather M0, you may need up to 27 milliseconds. Experiment to find the right timing for you. Too short a pulsewidth will make the second hand pulse but not move. A little too long will cause the clock to move forward more than one second. A lot too long will cause the clock to go backwards.
+The width of the pulse will depend on your clock motor and on the voltage of your controller. On an Arduino Uno or Raspberry Pi, 10 milliseconds seems to work well. On an M0-based board like the Arduino MKRZero or Adafruit Feather M0, you may need up to 27 milliseconds (we did, anyway). Experiment to find the right timing for you. Too short a pulsewidth will make the second hand pulse but not move. Slightly too long will cause the clock to move forward more than one second. A lot too long will cause the clock to go backwards.
 
 Similarly, there is a limit to how frequently you can pulse the pins. Less than once every 250 milliseconds caused the clock not to work for me. Your clock's behavior may vary.
 
@@ -22,7 +22,7 @@ As Matt describes in his post, you should use resistors on your output pins to l
 
 ![Analog Clock Control, schematic view](img/clock_control_schem@3x.png "Analog Clock Control, schematic view")
 
-Analog Clock Control, schematic view. This works for most microcontrollers or embedded Linux boards.
+Analog Clock Control, schematic view. Basically Matt Mets' version with easily obtainable resistor values and different diodes. This works for most microcontrollers or embedded Linux boards.
 
 
 ![Analog Clock Controlled by Uno, breadboard view](img/clock_control_Uno_bb.png "Analog Clock Controlled by Uno, breadboard view")
@@ -36,4 +36,4 @@ Analog Clock Control from an Raspberry Pi Zero, breadboard view
 
 Images generated using [Fritzing](http://www.fritzing.org) and Illustrator.
 
-This repository contains two Arduino-based examples, one that [works on any Arduino-compatible board](AnalogClockControl), and [one for an M0-based board](RTCAnalogClockControl), which uses the realtime clock on that processor. It also contains [an example using node.js](nodejsAnalogClockControl) and the [onoff](https://www.npmjs.com/package/onoff#writevalue-callback) package, which affords control of the GPIO pins on a Raspberry Pi or BeagleBone.
+This repository contains two Arduino-based examples, one that [works on any Arduino-compatible board](AnalogClockControl), and [one for an M0-based board](RTCAnalogClockControl), which uses the realtime clock on that processor. It also contains [an example using node.js](nodejsAnalogClockControl) and the [onoff](https://www.npmjs.com/package/onoff) package, which affords control of the GPIO pins on a Raspberry Pi or BeagleBone.
