@@ -2,5 +2,7 @@ P5JS_clocks/tidalclock/*
 P5JS_clocks/SunMoonClock/libraries/p5.sound.js
 
 P5JS_clocks/SunMoonClock/node_modules/suncalc/.travis.yml
-Programmable_LED_examples/.DS_Store
-Making_Custom_Clock_Hands/.DS_Store
+*/.DS_Store
+.DS_Store
+Analog_Clock_Control/img/clock_control.svg
+Analog_Clock_Control/img/clock_control_bb.svg
