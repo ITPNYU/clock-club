@@ -19,6 +19,7 @@ This repo is written for students and scholars of interactive design. It assumes
 ## Projects In This Repository
 
 * [Clocks in JavaScript using p5.js](https://github.com/ITPNYU/clock-club/tree/master/P5JS_examples)
+  * [Clock Animation Test](P5JS_examples/clockAnimationTest/) - a sketch that animates three images like a clock to test out different hand and face ideas.
 * [Programmable LED Clocks](https://github.com/ITPNYU/clock-club/tree/master/Programmable_LED_examples)
 * [Setting the Time on a Microcontroller-Driven LED (or other) Clock Project](https://github.com/ITPNYU/clock-club/tree/master/Microcontroller_Time_Setting_Methods)
 * [Microcontroller-Driven Quartz Clocks](https://github.com/ITPNYU/clock-club/tree/master/Analog_Clock_Control)
