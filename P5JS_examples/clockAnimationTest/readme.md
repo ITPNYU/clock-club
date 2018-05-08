@@ -2,6 +2,8 @@
 
 This sketch is a quick way to test different clock designs as animations before building them physically. It was inspired by [Mr. Jones Watches](https://mrjoneswatches.com/), which makes many watches with a clear full circle layer as a minute or hour hand, such as the [Time Traveler](https://mrjoneswatches.com/collections/all-watches/products/time-traveller) watch.
 
+Preview the sketch [here](https://htmlpreview.github.io/?https://github.com/ITPNYU/clock-club/blob/master/P5JS_examples/clockAnimationTest/index.html).
+
 To launch the sketch:
 
 ``$ python -m SimpleHTTPServer 8080``
