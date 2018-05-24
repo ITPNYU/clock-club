@@ -1,21 +1,13 @@
 /*
 Draws a clock. Draws the sun and moon position
 for your location and time as well.
-Outside radius arcs with seconds.
 
-Circle goes:
-3*PI/2 at the top
-|
-PI on the left    - o -       0 on the right
-|
-PI/2 at the bottom
-
-Program works by rotating the drawing surface proportional to the angle
-of each hand, then drawing the line for the hand.
+Draws the sun and moon at their azimuth to you, with north at the top.
 
 Uses suncalc library by Vladimir Agafonkin: https://github.com/mourner/suncalc
 
 created 29 May 2017
+updated 22 April 2018
 by Tom Igoe
 */
 
@@ -24,32 +16,46 @@ var clockRadius = 100;
 var hourHand = 60;
 var minuteHand = 90;
 var secondHand = minuteHand;
-var handStart = -10;
-var moonRadius = 60;
-var sunRadius = 18;
- var now = new Date('6/13/1967 00:03:00');
-// var times = SunCalc.getTimes(birth, 40.879463, -73.416215);
-//
-// // get position of the sun (azimuth and altitude) at today's sunrise
-// var sunPos = SunCalc.getPosition(birth, 40.879463, -73.416215);
-// var moonPos = SunCalc.getMoonPosition(birth, 40.879463, -73.416215);
+var handStart = -10;          // hands are slightly off-center
+var moonRadius = 18;
+var sunRadius = 30;
+var now = new Date();
+// position of the moon, sun, moon illumination, times of sunrise, sunset, etc.
+// from suncalc library:
 var sunPos, moonPos, moonIllumination, times;
-var latitude = 40.879463;
-var longitude = -73.416215;
-var then = new Date('01/30/1967 19:17:00');
+
+// your position in the world. This determined all the suncalc data:
+var latitude =0;
+var longitude = 0;
 
 function setup() {
   // set the general parameters for drawing:
-  createCanvas(320, 240);
-  frameRate(1);
+  createCanvas(windowWidth, windowHeight);
+  frameRate(1);       // 1 second per frame.
   smooth();
   strokeWeight(2);
   strokeCap(ROUND);
-  //getLocation();
+  textAlign(CENTER);
+  textFont('Helvetica');
+  textStyle(NORMAL);
+
+  // Turn on location watcher:
+  if ("geolocation" in navigator) {
+    var watcher = navigator.geolocation.watchPosition(geoSuccess, geoError);
+  }
 }
 
 function draw() {
   background('#000'); //black background
+
+// mark north on the map:
+  fill('#aaa');
+  stroke('#aaa');
+  let x=height/2-clockRadius*2;
+  triangle(width/2, x, (width/2) + 5, x+20, (width/2) -5, x+20);
+  line(width/2, x+20, width/2, x+40);
+  text('N', width/2, x+60);
+
   translate(width / 2, height / 2); // move to the center of the window
   rotate(3 * PI / 2); // rotate drawing 270 degrees to get 0 at the top
 
@@ -58,9 +64,11 @@ function draw() {
   // draw minute hand:
   drawHand(minute(), '#ace', minuteHand, 60);
   // draw hour hand:
-  drawHand(minute(), '#ace', hourHand, 12);
+  drawHand(hour(), '#ace', hourHand, 12);
 
+  // calculate sun and moon positions:
   calcPositions();
+  // draw the sun and moon:
   drawSun(sunPos.azimuth);
   drawMoon(moonPos.azimuth);
 }
@@ -75,21 +83,23 @@ function drawHand(unitValue, handColor, handLength, divisions) {
   pop();
 }
 
+// calculate the sun and moon positions based on
+// your position and the date and time:
 function calcPositions() {
+  // get current date and time:
   now = new Date();
   times = SunCalc.getTimes(now, latitude, longitude);
   moonIllumination = SunCalc.getMoonIllumination(now);
-  // get position of the sun (azimuth and altitude) at today's sunrise
+  // get position of the sun (azimuth and altitude) at today's sunrise:
   sunPos = SunCalc.getPosition(now, latitude, longitude);
-  console.log(sunPos);
   moonPos = SunCalc.getMoonPosition(now,  latitude, longitude);
-  console.log(moonPos);
 }
 
+// draw the sun at its azimuth:
 function drawSun(pos) {
   var angle =  pos;
-  var x = -clockRadius * cos(angle);
-  var y = -clockRadius * sin(angle);
+  var x = -clockRadius*2 * cos(angle);
+  var y = -clockRadius*2 * sin(angle);
   noStroke();
   // dim the sun after sunset:
   if (now > times.sunrise && now < times.sunset) {
@@ -97,25 +107,28 @@ function drawSun(pos) {
   } else {
     fill('#555500'); // at night, sun is dimmed
   }
+  // draw the sun:
   ellipse(x,y, sunRadius, sunRadius);
 }
 
+// draw the moon at its azimuth:
 function drawMoon(pos) {
   var angle =  pos;
   var x = -clockRadius * cos(angle);
   var y = -clockRadius * sin(angle);
   noStroke();
+  // brighten the moon after moonrise:
   if (now > times.night && now < times.sunriseEnd) {
     fill('#444'); // during the day, moon is dimmed
   } else {
     fill('#bbb'); // at night, moon is brighter
   }
-  rotate(-3*PI/2);
-  var moonAngle = moonIllumination.angle = moonPos.parallacticAngle;
-  //rotate(moonAngle);
-  console.log(moonAngle);
+  // rotate so zero is at the top:
+  rotate(3*PI/2);
+  push();
+  // draw the bright part of the moon:
   ellipse(x,y, moonRadius, moonRadius);
-  fill('#000');
+  fill('#222');
   var fullness = map(moonIllumination.fraction, 0, 1, -moonRadius, moonRadius);
   // if fullness  is negative (waxing moon), you need to adjust the shadow:
   var adjustment = 1;
@@ -123,23 +136,18 @@ function drawMoon(pos) {
     adjustment = -adjustment;
   }
   // draw the leading edge of the shadow:
-  arc(x,y, fullness, moonRadius, PI/2, 3*PI/2, PIE);
+  arc(x,y, fullness, moonRadius, PI/2, 3*PI/2, PI);
   // draw the back half of the shadow:
-  arc(x,y, adjustment*moonRadius+adjustment, moonRadius+1, 3*PI/2, PI/2, PIE);
+  arc(x,y, adjustment*moonRadius+adjustment, moonRadius+1, 3*PI/2, PI/2, PI);
   pop();
 }
 
+// get your lat and long from the geolocation watcher:
 function geoSuccess(position) {
   latitude = position.coords.latitude;
   longitude = position.coords.longitude;
 }
 
 function geoError(error) {
-  print(error);
-}
-
-function getLocation() {
-  if ("geolocation" in navigator) {
-    navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
-  }
+  console.log(error);
 }
