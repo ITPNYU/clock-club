@@ -6,3 +6,5 @@ P5JS_clocks/SunMoonClock/node_modules/suncalc/.travis.yml
 .DS_Store
 Analog_Clock_Control/img/clock_control.svg
 Analog_Clock_Control/img/clock_control_bb.svg
+Analog_Clock_Control/img/.DS_Store
+*.lck

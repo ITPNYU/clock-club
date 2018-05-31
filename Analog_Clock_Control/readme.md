@@ -18,12 +18,12 @@ As Matt describes in his post, you should use resistors on your output pins to l
 ### Bill of Materials:
 * 2 x 47-ohm diodes, e.g. Digikey [47QBK-ND](https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=259581444&uq=636611085560014662)
 * 2 x 1N5226 3.3V Zener diodes (or other 3.3V Zener diode), e.g. Digikey [1N5226BFSCT-ND](https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=259969191&uq=636611086112328034)
+* 1 x [Quartex Clear Clock Movement](https://www.klockit.com/quartexr-clear-quartz-clock-movement.html)
 
 
 ![Analog Clock Control, schematic view](img/clock_control_schem@3x.png "Analog Clock Control, schematic view")
 
 Analog Clock Control, schematic view. Basically Matt Mets' version with easily obtainable resistor values and different diodes. This works for most microcontrollers or embedded Linux boards.
-
 
 ![Analog Clock Controlled by Uno, breadboard view](img/clock_control_Uno_bb.png "Analog Clock Controlled by Uno, breadboard view")
 
@@ -35,5 +35,7 @@ Analog Clock Control from an Arduino Uno, breadboard view
 Analog Clock Control from an Raspberry Pi Zero, breadboard view
 
 Images generated using [Fritzing](http://www.fritzing.org) and Illustrator.
+
+Step-by-step details and pictures of the assembly can be found at [this link](assembly.md).
 
 This repository contains two Arduino-based examples, one that [works on any Arduino-compatible board](AnalogClockControl), and [one for an M0-based board](RTCAnalogClockControl), which uses the realtime clock on that processor. It also contains [an example using node.js](nodejsAnalogClockControl) and the [onoff](https://www.npmjs.com/package/onoff) package, which affords control of the GPIO pins on a Raspberry Pi or BeagleBone.
