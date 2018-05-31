@@ -36,6 +36,6 @@ Analog Clock Control from an Raspberry Pi Zero, breadboard view
 
 Images generated using [Fritzing](http://www.fritzing.org) and Illustrator.
 
-Step-by-step details and pictures of the assembly can be found at [this link](assembly.md).
+Step-by-step details and pictures of the assembly can be found at [this link](assembly.mdz).
 
 This repository contains two Arduino-based examples, one that [works on any Arduino-compatible board](AnalogClockControl), and [one for an M0-based board](RTCAnalogClockControl), which uses the realtime clock on that processor. It also contains [an example using node.js](nodejsAnalogClockControl) and the [onoff](https://www.npmjs.com/package/onoff) package, which affords control of the GPIO pins on a Raspberry Pi or BeagleBone.

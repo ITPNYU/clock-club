@@ -91,9 +91,11 @@ The control circuit needs two Zener diodes, two 47-ohm resistors, and a breadboa
 Figure 16. The components for the control circuit.
 
 ![Analog Clock Control, schematic view](img/clock_control_schem@3x.png "Analog Clock Control, schematic view")
+
 Figure 17. Analog Clock Control, schematic view.
 
 ![Analog Clock Controlled by Uno, breadboard view](img/clock_control_Uno_bb.png "Analog Clock Controlled by Uno, breadboard view")
+
 Figure 18. Analog Clock Control from an Arduino Uno, breadboard view
 
 Images generated using [Fritzing](http://www.fritzing.org) and Illustrator.
