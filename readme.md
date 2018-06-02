@@ -102,6 +102,8 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [A Sideways Look at Time](https://www.amazon.com/Sideways-Look-at-Time/dp/1585423068/) by Jay Griffiths.
 
+[Geared to the Stars - The Evolution of Planetariums, Orreries, and Astronomical Clocks] (https://archive.org/details/gearedtostarsevo00king) A hard-to-find, thorough accounting of the history of western astronomical mechanisms.
+
 ### Parts
 
 #### Gears
