@@ -90,7 +90,7 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
-[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong.
+[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. [Mooncalc](https://www.mooncalc.org) is the same for the moon, and [this table by Don Cross](http://cosinekitty.com/solar_system.html) updates in real time for many solar system objects. 
 
 [Armillary Sphere](https://vimeo.com/55019500) An animation for the Museum of the History of Science Oxford explaining armillary spheres.
 
@@ -101,6 +101,8 @@ This repo is written for students and scholars of interactive design. It assumes
 [How we Got To Now](https://www.amazon.com/How-We-Got-Now-Innovations/dp/1594633932) by Steven Johnson has come up a lot.
 
 [A Sideways Look at Time](https://www.amazon.com/Sideways-Look-at-Time/dp/1585423068/) by Jay Griffiths.
+
+[Geared to the Stars - The Evolution of Planetariums, Orreries, and Astronomical Clocks](https://archive.org/details/gearedtostarsevo00king) A hard-to-find, thorough accounting of the history of western astronomical mechanisms.
 
 ### Parts
 
