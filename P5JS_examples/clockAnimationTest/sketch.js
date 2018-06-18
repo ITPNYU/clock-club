@@ -18,6 +18,7 @@ by Tom Igoe
 var hourImg;    // images to be displayed on each layer
 var minuteImg;
 var secondImg;
+var faceImg;
 
 var hAlpha = 255; // transparency of the layers, from 0 (invisible) to 255 (opaque)
 var mAlpha = 127;
@@ -26,12 +27,13 @@ var sAlpha = 100;
 var h = 0;    // hour, minute, second
 var m = 0;
 var s = 0;
-var speed = 30;     // frames per second
+var speed = 60;     // frames per second
 function preload() {
   // load the images:
   hourImg = loadImage('assets/hourLayer.png');
   minuteImg = loadImage('assets/minuteLayer.png');
   secondImg = loadImage('assets/secondLayer.png');
+  faceImg = loadImage('assets/faceLayer.png');
 }
 
 function setup() {
@@ -45,8 +47,8 @@ function setup() {
 function draw() {
   background(255);                  // white background
   translate(width / 2, height / 2); // move to the center of the window
-  rotate(3 * PI / 2);               // rotate drawing 270 degrees to get 0 at the top
-
+  // draw face
+  image(faceImg, 0, 0);
   // draw hour layer:
   drawHand(h, hourImg, hAlpha, 12);
   // draw minute layer:
