@@ -1,19 +1,11 @@
 
 /*
-  Stepper Motor Control - one step at a time
+  VID28-05 Motor Control
 
-  This program drives a unipolar or bipolar stepper motor.
-  The motor is attached to digital pins 8 - 11 of the Arduino.
+  Controls two stepper motors at once, used to drive a VID28-05 
+  concentric shaft motor
 
-  The motor will step one step at a time, very slowly.  You can use this to
-  test that you've got the four wires of your stepper wired to the correct
-  pins. If wired correctly, all steps should be in the same direction.
-
-  Use this also to count the number of steps per revolution of your motor,
-  if you don't know it.  Then plug that number into the oneRevolution
-  example to see if you got it right.
-
-  Created 30 Nov. 2009
+  Created 24 May 2018
   by Tom Igoe
 
 */
@@ -58,6 +50,6 @@ void loop() {
   if (minuteSteps == 0) {
     minuteDir = -minuteDir;
   }
-  delay(50);
+  delay(10);
 }
 
