@@ -48,8 +48,6 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [11+ WORLD CLOCK](http://store.leibal.com/products/11-world-clock) by Leibal. Shows time in different time zones by rolling the clock.
 
-[A History of Braun part 2: Timepieces](http://www.core77.com/posts/24660/a-history-of-braun-design-part-2-timepieces-24660) Article on Dieter Rams' clock designs for Braun.
-
 [Orrery Maker](http://www.orrerymaker.com/librarybooks.htm)
 
 [Sasa Clock](http://thorunndesign.com/independent-work/#/sasa/) by Thorunn Arnadottir. Counts time using a series of beads, not unlike a rosary.
@@ -84,13 +82,16 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [The Present](https://www.kickstarter.com/projects/scottthrift/the-present) is a one year clock. The kickstarter mentions a circuit to slow the second tick down; this [Design Boom article](http://www.designboom.com/technology/worlds-first-year-long-clock-thepresent-by-m-ss-ng-p-eces/) mentions custom German mechanisms but those also seem to show the customization of a different MCU.
 
+### [Bibliography](bibliography.md)
+
+A collection of books and articles on clocks and time
 
 ### Information
 [From Sundials to Atomic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
-[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. [Mooncalc](https://www.mooncalc.org) is the same for the moon, and [this table by Don Cross](http://cosinekitty.com/solar_system.html) updates in real time for many solar system objects. 
+[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. [Mooncalc](https://www.mooncalc.org) is the same for the moon, and [this table by Don Cross](http://cosinekitty.com/solar_system.html) updates in real time for many solar system objects.
 
 [Armillary Sphere](https://vimeo.com/55019500) An animation for the Museum of the History of Science Oxford explaining armillary spheres.
 
@@ -98,12 +99,8 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [Paper Astrolabes](http://www.mhs.ox.ac.uk/students/03to04/Astrolabes/Starholder_intro.html) An exhibit of paper astrolabes from the 1500's, with instructions on building them.
 
-[How we Got To Now](https://www.amazon.com/How-We-Got-Now-Innovations/dp/1594633932) by Steven Johnson has come up a lot.
-
-[A Sideways Look at Time](https://www.amazon.com/Sideways-Look-at-Time/dp/1585423068/) by Jay Griffiths.
-
-[Geared to the Stars - The Evolution of Planetariums, Orreries, and Astronomical Clocks](https://archive.org/details/gearedtostarsevo00king) A hard-to-find, thorough accounting of the history of western astronomical mechanisms.
-
+[O'clock. Time Design, Design Time](https://www.designboom.com/design/oclock-time-design-design-time-at-triennale-design-museum-milan/) An exhibit of timepieces at the Milan Triennale museum in 2011. Sadly, the catalog, which is very good, cannot be found online.
+Here's [another review of it](https://www.wallpaper.com/art/oclock-time-design-design-time-show-milan). 
 ### Parts
 
 #### Gears
