@@ -14,9 +14,9 @@ Griffiths, J. (2004). [A sideways look at time](https://www.amazon.com/Sideways-
 
 Johnson, S. (2015). [How we got to now: Six innovations that made the modern world](https://www.amazon.com/How-We-Got-Now-Innovations-ebook/dp/B00INIXU5I/ref=mt_kindle?_encoding=UTF8&me=&qid=1529660991). New York: VIKING, Published by Penguin Group.
 
-King, H. C., & Millburn, J. R. (1978). [Geared to the stars; the evolution of planetariums, orreries, and astronomical clocks]((https://archive.org/details/gearedtostarsevo00king). Buffalo: University of Buffalo Press. A hard-to-find, thorough accounting of the history of western astronomical mechanisms.
+King, H. C., & Millburn, J. R. (1978). [Geared to the stars; the evolution of planetariums, orreries, and astronomical clocks](https://archive.org/details/gearedtostarsevo00king). Buffalo: University of Buffalo Press. A hard-to-find, thorough accounting of the history of western astronomical mechanisms.
 
-Levine, R. (2012). [A Geography of Time: The Temporal Misadventures of a Social Psychologist, or How every Culture Keeps Time Just a Little Bit Differently]{https://www.basicbooks.com/titles/robert-n-levine/a-geography-of-time/9780786722532/}. Oxford: Oneworld.
+Levine, R. (2012). [A Geography of Time: The Temporal Misadventures of a Social Psychologist, or How every Culture Keeps Time Just a Little Bit Differently](https://www.basicbooks.com/titles/robert-n-levine/a-geography-of-time/9780786722532/). Oxford: Oneworld.
 
 Lindley, S. (2015). [Making Time](https://dl.acm.org/citation.cfm?doid=2675133.2675157). In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW '15). ACM, New York, NY, USA, 1442-1452.
 
