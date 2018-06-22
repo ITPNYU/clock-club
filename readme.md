@@ -87,7 +87,6 @@ This repo is written for students and scholars of interactive design. It assumes
 A collection of books and articles on clocks and time
 
 ### Information
-[From Sundials to Atomic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
@@ -100,7 +99,7 @@ A collection of books and articles on clocks and time
 [Paper Astrolabes](http://www.mhs.ox.ac.uk/students/03to04/Astrolabes/Starholder_intro.html) An exhibit of paper astrolabes from the 1500's, with instructions on building them.
 
 [O'clock. Time Design, Design Time](https://www.designboom.com/design/oclock-time-design-design-time-at-triennale-design-museum-milan/) An exhibit of timepieces at the Milan Triennale museum in 2011. Sadly, the catalog, which is very good, cannot be found online.
-Here's [another review of it](https://www.wallpaper.com/art/oclock-time-design-design-time-show-milan). 
+Here's [another review of it](https://www.wallpaper.com/art/oclock-time-design-design-time-show-milan).
 ### Parts
 
 #### Gears
