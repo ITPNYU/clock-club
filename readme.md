@@ -102,6 +102,18 @@ A collection of books and articles on clocks and time
 Here's [another review of it](https://www.wallpaper.com/art/oclock-time-design-design-time-show-milan).
 ### Parts
 
+#### Clock Mechanism Suppliers
+
+* [Klockit](http://www.klockit.com/) has raw clock parts.
+* The [Takane](https://www.clockparts.com/time-and-tide-movement/) tide clock adds a reduction stage to the output of a more-or-less standard mechanism. It consists of a stack of gears in the ratio 57:58:59, thus reducing a 12 hour period (solar half-day) to 12h+25.2m (lunar half-day, tidal period). The 58 tooth gear is visible hanging below the main assembly. By running this mechanism at half speed, the hour hand corresponds to sun position and tide hand to moon position. Alternately, it may be possible to add the tide stage to an existing 24-hour movement for the same effect.
+* [American Time](http://www.american-time.com/products-by-family/clock-parts-and-repairs) has a wide variety of clock mechanisms, including network clocks, AC clock motors, and more
+* [ClockParts](https://www.clockparts.com/) carries movements, motors, dials, and hands, similar to Klockit.
+* [Norkro](https://norkro.com/) also carries primarily quartz movements.
+* [Bearwoods](https://www.bearwood.com/) carries quartz movements with a focus on wooden clocks. They have a nice guide on [choosing your clock hands](https://www.bearwood.com/how-to-choose-movements-and-hands.html).
+* [Clockworks](http://www.clockworks.com/) has mechanical and spring driven movements, in addition to quartz movements. They also carry electric clock motors for AC clocks.
+* [Esslinger](https://www.esslinger.com/) has clock and watch movements.
+
+
 #### Gears
 
 * [Pololu 250:1 Micro Metal Gearmotor MP with Extended Motor Shaft](https://www.pololu.com/product/2384) Small motor with gearbox.
@@ -129,11 +141,9 @@ If you want to make a clock with independent hands, you need one of these. You c
 
 * [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled). Brass also available.
 * [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms. Also available through [VXB](http://www.vxb.com/Hardware-Turntables-Lazy-Susans-Online-s/246.htm)
-* [Klockit](http://www.klockit.com/) has raw clock parts.
-* The [Takane](https://www.clockparts.com/time-and-tide-movement/) tide clock adds a reduction stage to the output of a more-or-less standard mechanism. It consists of a stack of gears in the ratio 57:58:59, thus reducing a 12 hour period (solar half-day) to 12h+25.2m (lunar half-day, tidal period). The 58 tooth gear is visible hanging below the main assembly. By running this mechanism at half speed, the hour hand corresponds to sun position and tide hand to moon position. Alternately, it may be possible to add the tide stage to an existing 24-hour movement for the same effect.
+
 
 #### Faces/Dials
 
 * Laser etching powder-coated parts - laser removes paint.
 * The opposite - laser fixes paint to part. Brand name?
-* [Milling your own clock hands](milling-custom-hands.md) a brief tutorial
