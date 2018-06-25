@@ -26,59 +26,9 @@ This repo is written for students and scholars of interactive design. It assumes
 * [Making Your Own Clock Hands](https://github.com/ITPNYU/clock-club/tree/master/Making_Custom_Clock_Hands)
 * [Two Stepper Motor-Driven Clock Mechanism](https://github.com/ITPNYU/clock-club/tree/master/two_stepper_clock_mechanism)
 
-### Insipiration Links
+### [Insipiration Links](works.md)
 
-[The Chronophage](http://www.johnctaylor.com/the-chronophage/) by John C. Taylor. An analog clock with an insect theme. How he creates the lighting effect without changing the lights is interesting.
-
-[Time Traveller](http://mrjoneswatches.com/time-traveller/) by Mr. Jones Watches (Crispin Jones). The one moving hand has a tall building for every time zone, so it tells time in all time zones simultaneously. A dot tells the seconds.
-
-[The 10,000 Year Clock](http://longnow.org/clock/) by the Longnow Foundation. Originated by Danny Hillis, Brian Eno, and Kevin Kelly, the 10K year clock is a monument intended to help encourage very long-term thinking. The basic premise of the Longnow foundation is this: civilization has been around ~10,000 years. If we plan to make it another 10,000, we need to get better at long term thinking.
-
-[Paolo Salvagione](https://www.autodesk.com/artist-in-residence/artists/paolo-salvagione) works on the Long Now clock and was a resident at Pier 9.
-
-[Bulbdial Monochrome Kit](http://shop.evilmadscientist.com/productsmenu/791#) One of Evil Mad Scientist Labs' clock kits. Does a wonderful job at projecting the hands of the clock as shadows.
-
-[Eclisse Table Lamp](http://www.ylighting.com/artemide-eclisse-table-lamp.html) by Artemide. Lamp that takes inspiration from the phases of the moon.
-
-[Working Watch Cufflinks](http://www.amazon.com/Watch-Working-Round-Cufflinks-Presentation/dp/B00PJ1P9TC/ref=sr_1_4?ie=UTF8&qid=1461955802&sr=8-4&keywords=working+watch+cufflinks) Why not?
-
-[Long Distance Watch](http://www.kitmenkeung.com/) Kitmen Keung's dual-face watch, so you can always know what time it is at home.
-
-[Slow Watch](https://www.slow-watches.com/the-store/slow-jo-38mm/slow-jo-22-all-black-mesh.html) Watch with a single hand that takes 25 hours to go around the face. By Slow Watches.
-
-[11+ WORLD CLOCK](http://store.leibal.com/products/11-world-clock) by Leibal. Shows time in different time zones by rolling the clock.
-
-[Sasa Clock](http://thorunndesign.com/independent-work/#/sasa/) by Thorunn Arnadottir. Counts time using a series of beads, not unlike a rosary.
-
-[Aeroport Orly Ouest Horloge Astronomique](http://www.patrimoine-horloge.fr/as-orlyo.html) by Alfred Faullimel and others. A large yet compact depiction of several astronomic properties of the earth, moon, sun and solar system.
-
-[Accutron patent](http://www.decadecounter.com/accutron/US3162006.pdf), one of several, that shows the electromagnetically driven tuning fork timing mechanism. [This page](http://www.decadecounter.com/accutron/docs.htm) has a list of several more Accutron documents.
-
-[Hodinkee](https://www.hodinkee.com/) has hi-res pictures of fancy watches.
-
-[Christiaan van der Klaauw](http://www.klaauw.com/) specializes in astronomical complications. JF - I like ones with spherical (rather than flat) moon phase indicators.
-
-[Luminance](http://ariellehein.com/) Arielle Hein's clock reflects sunrise and set.
-
-[Continue Time](http://sandermulder.com/continue_time.html) Sander Mulder elegantly combines all three hands of a clock.
-
-[Bomi Kim](http://www.new-startups.com/turn-anything-into-a-clock/) rendered what [Ben is making](two_stepper_clock_mechanism) functional - a generic two-hand mechanism.
-
-[Tom Shannon](http://www.google.com/patents/US4579460) synchronous world clock with Fuller-Sadao map.
-
-[QlockTwo](http://qlocktwo.com/) a word clock.
-
-[Clock instructable](http://www.instructables.com/id/How-to-build-C3Jr-a-sophisticated-word-clock/) detailing several more word clocks, including C3Jr mentioned in the first ITP Camp Clock Club session.
-
-[NY Horological Society](http://www.hs-ny.org/) teaches watch-making classes.
-
-[Equinox](http://willware.blogspot.com/2008/07/3d-printer-project-at-victoria.html) is a sun-powered 3D printer similar to an armillary sphere (see below).
-
-[One Day Poem Pavilion](http://people.artcenter.edu/~jsong5/thesis/index.html) uses the sun's motion to project and animate a poem that changes through the course of a day and over seasons.
-
-[Quadrature](http://quadrature.co/) has inspiring clock-adjacent work, including [Voyager](http://quadrature.co/work/voyager/)
-
-[The Present](https://www.kickstarter.com/projects/scottthrift/the-present) is a one year clock. The kickstarter mentions a circuit to slow the second tick down; this [Design Boom article](http://www.designboom.com/technology/worlds-first-year-long-clock-thepresent-by-m-ss-ng-p-eces/) mentions custom German mechanisms but those also seem to show the customization of a different MCU.
+A collection of existing timepieces and time-related projects
 
 ### [Bibliography](bibliography.md)
 
@@ -96,8 +46,14 @@ A collection of books and articles on clocks and time
 
 [Paper Astrolabes](http://www.mhs.ox.ac.uk/students/03to04/Astrolabes/Starholder_intro.html) An exhibit of paper astrolabes from the 1500's, with instructions on building them.
 
-[O'clock. Time Design, Design Time](https://www.designboom.com/design/oclock-time-design-design-time-at-triennale-design-museum-milan/) An exhibit of timepieces at the Milan Triennale museum in 2011. Sadly, the catalog, which is very good, cannot be found online.
-Here's [another review of it](https://www.wallpaper.com/art/oclock-time-design-design-time-show-milan).
+[Accutron patent](http://www.decadecounter.com/accutron/US3162006.pdf), one of several, that shows the electromagnetically driven tuning fork timing mechanism. [This page](http://www.decadecounter.com/accutron/docs.htm) has a list of several more Accutron documents.
+
+[Tom Shannon](http://www.google.com/patents/US4579460) synchronous world clock with Fuller-Sadao map.
+
+[Clock instructable](http://www.instructables.com/id/How-to-build-C3Jr-a-sophisticated-word-clock/) detailing several more word clocks, including C3Jr mentioned in the first ITP Camp Clock Club session.
+
+[NY Horological Society](http://www.hs-ny.org/) teaches watch-making classes.
+
 ### Parts
 
 #### Clock Mechanism Suppliers
@@ -134,6 +90,8 @@ If you want to make a clock with independent hands, you need one of these. You c
  * AN [eBay source](https://www.ebay.com/itm/VID28-05-Instrument-Micro-Cluster-Dual-Shaft-Stepper-Motor-/232443758214) for them.
  * An [Aliexpress](https://www.aliexpress.com/item/Micro-stepping-motor-BKA30D-R5-Biaxially-meter-motor-BKA30D-stepper-motor-same-as-VID28-05-New/32829075642.html) source for them.
  * [Hackaday teardown](https://hackaday.io/project/7872-clock-clock-clone) on making your own [ClockClock](https://clockclock.com/) clone.
+
+ * [Bomi Kim](http://www.new-startups.com/turn-anything-into-a-clock/) rendered what [Ben is making](two_stepper_clock_mechanism) functional - a generic two-hand mechanism.
 
 #### Mechanical parts
 
