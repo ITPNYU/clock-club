@@ -24,6 +24,8 @@ Martin, R., Holtzman, H. (2011). [Kairoscope: managing time perception and sched
 
 Mazmanian, M., Erickson, I., and Harmon, E. (2015). [Circumscribed Time and Porous Time: Logics as a Way of Studying Temporality](http://dl.acm.org/citation.cfm?id=2675231 ). In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW '15). ACM, New York, NY, USA, 1453-1464.
 
+Riskin, J. (2016). [The Restless Clock: A History of the Centuries-Long Argument Over What Makes Living Things Tick](http://press.uchicago.edu/ucp/books/book/chicago/R/bo21519800.html). Chicago: University of Chicago Press
+
 Sobel, D. (2014). [Longitude](https://www.amazon.com/Longitude-Genius-Greatest-Scientific-Problem/dp/080271529X/ref=sr_1_1?s=books&ie=UTF8&qid=1529590789&sr=1-1&keywords=longitude). London: Fourth Estate.
 
 Taylor, J. L., Soro, A., Roe, P., Hong, A. L., Brereton, M. (2017). [Situational When: Designing for Time Across Cultures](https://doi.org/10.1145/3025453.3025936 ). In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 6461-6474.

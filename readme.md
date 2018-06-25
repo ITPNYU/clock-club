@@ -48,8 +48,6 @@ This repo is written for students and scholars of interactive design. It assumes
 
 [11+ WORLD CLOCK](http://store.leibal.com/products/11-world-clock) by Leibal. Shows time in different time zones by rolling the clock.
 
-[Orrery Maker](http://www.orrerymaker.com/librarybooks.htm)
-
 [Sasa Clock](http://thorunndesign.com/independent-work/#/sasa/) by Thorunn Arnadottir. Counts time using a series of beads, not unlike a rosary.
 
 [Aeroport Orly Ouest Horloge Astronomique](http://www.patrimoine-horloge.fr/as-orlyo.html) by Alfred Faullimel and others. A large yet compact depiction of several astronomic properties of the earth, moon, sun and solar system.
