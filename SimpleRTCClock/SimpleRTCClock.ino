@@ -132,7 +132,9 @@ void setDateFromCompile() {
   // see which month matches the month string:
   for (int i = 0; i < 12; i++) {
     if (monthStr == months[i]) {
+      // the first month is 1, but its array position is 0, so:
       m = i + 1;
+      // no need to continue the rest of the for loop:
       break;
     }
   }
