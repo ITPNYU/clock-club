@@ -37,6 +37,8 @@
 
 [Hodinkee](https://www.hodinkee.com/) has hi-res pictures of fancy watches.
 
+[Dezeen's List of Watch Brands](https://www.dezeen.com/dezeen-watch-store-brands/) Pure watch design porn. So many things we want there!
+
 ## Orreries and Armillaries
 
 [Aeroport Orly Ouest Horloge Astronomique](http://www.patrimoine-horloge.fr/as-orlyo.html) by Alfred Faullimel and others. A large yet compact depiction of several astronomic properties of the earth, moon, sun and solar system.
