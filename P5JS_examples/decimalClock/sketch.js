@@ -29,8 +29,9 @@ var handStart = -10;
 var tickLength = 30;
 var tickStart = clockRadius - 50;
 
+var showStandard = false;   // whether or not to show standard time too
+
 function setup() {
-  frameRate(120);
   // set the general parameters for drawing:
   createCanvas(windowWidth, windowHeight);
   smooth();
@@ -44,7 +45,8 @@ function draw() {
   let secondsIntoDay = (now.getHours() * 3600)
     + (now.getMinutes() * 60)
     + now.getSeconds()
-    + now.getMilliseconds() / 1000;
+// need milliseconds to get decimal seconds right:
+    + now.getMilliseconds() / 1000;  
   // 1 decimal sec = 0.864 standard secs:
   let dSecsIntoDay = secondsIntoDay / 0.864;
   // hour = dsecs in day / 10000:
@@ -54,7 +56,7 @@ function draw() {
   // divide by 100 to get remaining in minutes:
   let dMinute = Math.floor(remaining / 100);
   // subtract minutes from remaining to get seconds:
-  let dSecond = remaining - (100 * dMinute);
+  let dSecond = Math.round(remaining - (100 * dMinute));
 
   background(255); // white background
   translate(width / 2, height / 2); // move to the center of the window
@@ -64,7 +66,20 @@ function draw() {
   for (var t = 0; t < tickCount; t++) {
     drawMark(t, '#444', tickLength, 10);
   }
+  tickCount = 100;
+  for (var t = 0; t < tickCount; t++) {
+    drawMark(t, '#888', tickLength / 2, 100);
+  }
 
+  if (showStandard) {
+    // draw second hand:
+    drawHand(now.getSeconds(), '#c9c', secondHand, 60);
+    // draw minute hand:
+    drawHand(now.getMinutes(), '#a9e', minuteHand, 60);
+    // draw hour hand:
+    drawHand(now.getHours(), '#a9e', hourHand, 12);
+  }
+  
   // draw second hand:
   drawHand(dSecond, '#ccc', secondHand, 100);
   // draw minute hand:
@@ -91,4 +106,8 @@ function drawMark(unitValue, tickColor, tickLength, divisions) {
   stroke(tickColor); // set line color
   line(tickStart, 0, tickLength + tickStart, 0);
   pop();
+}
+
+function keyPressed() {
+  showStandard = !showStandard;
 }

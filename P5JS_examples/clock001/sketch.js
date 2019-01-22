@@ -40,7 +40,7 @@ function draw() {
   // draw minute hand:
   drawHand(minute(), '#ace', minuteHand, 60);
   // draw hour hand:
-  drawHand(minute(), '#ace', hourHand, 12);
+  drawHand(hour(), '#ace', hourHand, 12);
 
   // draw arc from 0 to current second:
   push();
