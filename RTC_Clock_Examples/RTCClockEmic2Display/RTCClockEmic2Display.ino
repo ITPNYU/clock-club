@@ -106,9 +106,6 @@ void setTimeFromCompile() {
 
 // set the rtc time from the compile date:
 void setDateFromCompile() {
-//  String months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
-//                     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-//                    };
   // get the compile date:
   String compileDate = String(__DATE__);
 
