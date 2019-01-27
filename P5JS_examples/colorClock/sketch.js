@@ -25,8 +25,8 @@ function draw() {
 	// get hours and minutes as a decimal number:
 	let thisHour = hour() + thisMinute / 60;
 	// set the sizes of the circles:
-	let hourHand = thisHour * 2;
-	let minuteHand = 200;
+	let minuteHand = windowWidth*0.25;
+	let hourHand = map(thisHour, 0, 23, 0, minuteHand*0.75);
 	let secondHand = minuteHand * 1.05;
 
 	// draw second circle:
@@ -34,14 +34,14 @@ function draw() {
 	// draw minute circle:
 	drawHand(thisMinute, minuteHand, 60);
 	// // draw hour circle:
-	drawHand(thisHour, hourHand, 12);
-
+	drawHand(thisHour, hourHand, 24);
 }
 
 // this function draws a hand, given the unit value, hand color, length,
 // and how many divisions in a circle (e.g. minute: 60, hour: 12):
 function drawHand(unitValue, handLength, divisions) {
-	let color = hsv2rgb(unitValue * 6, 1, 1);
+	let h = map(unitValue, 0, divisions, 0, 360);
+	let color = hsv2rgb(h, 1, 1);
 	noStroke();
 	fill(color); // set line color
 	circle(width / 2, height / 2, handLength);
