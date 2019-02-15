@@ -25,8 +25,8 @@ function draw() {
 	// get hours and minutes as a decimal number:
 	let thisHour = hour() + thisMinute / 60;
 	// set the sizes of the circles:
-	let minuteHand = windowWidth*0.25;
-	let hourHand = map(thisHour, 0, 23, 0, minuteHand*0.75);
+	let minuteHand = windowWidth * 0.25;
+	let hourHand = map(thisHour, 0, 23, 0, minuteHand * 0.75);
 	let secondHand = minuteHand * 1.05;
 
 	// draw second circle:
