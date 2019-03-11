@@ -10,7 +10,7 @@
     Arduino MKR1000 pr MKR1010 (change to WiFiNINA library for this)
 
   Add SECRET_SSID and SECRET_PASS constants in a separate arduino_secrets.h file.
-  
+
   created 11 Mar 2019
   by Tom Igoe
 */
@@ -28,7 +28,7 @@ int timeZone = -5;  // your time zone relative to UTC; -5 is US Eastern time
 void setup() {
   Serial.begin(9600);
   // wait for serial monitor to open
-  while (!Serial);    
+  while (!Serial);
 
   // initialize the realtime clock:
   rtc.begin();
@@ -64,17 +64,17 @@ void setup() {
   // since Jan 1 1970. There are 86400 seconds in a day. So
   // days = epoch /86400, and day of week = days % 7. And
   // Jan 1 1970 was a Thursday, so add 4:
-  
+
   int dayOfWeek = ((epoch / 86400) + 4) % 7;
   String dayNames[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
-  
+
   Serial.print("Day of week: ");
   Serial.println(dayNames[dayOfWeek]);
 
   // if daylight savings, spring forward:
-    timeZone = timeZone + daylightSavings(dayOfWeek);
+  timeZone = timeZone + daylightSavings(dayOfWeek);
 
-  Serial.println("time zone: " + String(timeZone));
+  Serial.println("time difference from GMT: " + String(timeZone));
   rtc.setHours(rtc.getHours() + timeZone);
 
   // print the time:
@@ -85,7 +85,7 @@ void setup() {
 }
 
 void loop() {
-  
+
 }
 
 // get the time as a string HH:MM:SS:
@@ -103,30 +103,30 @@ String getTimeString(int h, int m, int s) {
 }
 
 // Calculate daylight savings days in the US.
-// DST starts on the second Sunday in March 
+// DST starts on the second Sunday in March
 // and standard time starts on the first Sunday in November.
 
 int daylightSavings(int weekDay) {
-  int result == 0;
+  int springForward = 0;
   //January, February, and December are standard time
- 
+
   //April to October are daylight savings:
   if (rtc.getMonth() > 3 && rtc.getMonth() < 11) {
-    result = 1;
+    springForward = 1;
   }
   // calculate the day of the month of the previous sunday
   // from today:
   int lastSunday = rtc.getDay() - weekDay;
-  
+
   // In March, daylight savings starts on the second sunday,
   // i.e. after the 8th:
   if (rtc.getMonth() == 3 && lastSunday >= 8) {
-    result = 1;
+    springForward = 1;
   }
   //In november we must be before the first sunday to be dst.
   //That means the previous sunday must be before the 1st.
   if (rtc.getMonth() == 11 && lastSunday <= 0) {
-    result = 1;
+    springForward = 1;
   }
-  return result;
+  return springForward;
 }
