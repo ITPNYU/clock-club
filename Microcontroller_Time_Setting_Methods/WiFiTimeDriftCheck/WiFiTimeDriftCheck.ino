@@ -4,7 +4,8 @@
 
     WiFi.getEpoch() connects to network time servers and gets the
     UNIX epoch (seconds since 1/1/1970, 00:00:00). It then sets
-    the realtime clock epoch with that time
+    the realtime clock epoch with that time. Once an hour it checks to see
+    how much the time has drifted from the network time.
 
     Works on MKR1000, MKR1010
 
@@ -12,8 +13,7 @@
     #define SECRET_SSID ""    //  your network SSID (name)
     #define SECRET_PASS ""    // your network password
 
-    created 30 April 2019
-    modified 29 May 2019
+    created 29 May 2019
     by Tom Igoe
 */
 #include <SPI.h>
@@ -32,6 +32,14 @@ void setup() {
   while (!Serial);
   rtc.begin();
   connectToNetwork();
+  if (rtc.getEpoch() > 0) {
+    // set alarm time:
+    rtc.setAlarmTime(0, 0, 0);
+    // set alarm to go off once a minute (change to MATCH_MMSS for hourly):
+    rtc.enableAlarm(rtc.MATCH_SS);
+    // set alarm interrrupt:
+    rtc.attachInterrupt(checkDrift);
+  }
 }
 
 void loop() {
@@ -47,7 +55,6 @@ void loop() {
     lastSecond = rtc.getSeconds();
   }
 }
-
 
 void connectToNetwork() {
   // try to connect to the network:
@@ -80,6 +87,21 @@ void connectToNetwork() {
   Serial.println(WiFi.RSSI());
 }
 
+void checkDrift() {
+  // set the time from the network:
+  unsigned long epoch;
+  do {
+    Serial.println("Attempting to get network time");
+    epoch = WiFi.getTime();
+    delay(1000);
+  } while (epoch == 0);
+  
+  // calculate the drift using the epoch from the network
+  // and the RTC epoch:
+  long drift = epoch - rtc.getEpoch();
+  Serial.print("Clock drift: ");
+  Serial.println(drift);
+}
 
 // format the time as hh:mm:ss
 String getTimeStamp() {
