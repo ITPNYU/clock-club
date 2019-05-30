@@ -12,5 +12,8 @@ VID28-05_mechanism/.VID28-05_footprint.lck
 two_stepper_clock_mechanism/.DS_Store
 Microcontroller_Time_Setting_Methods/Timezones_DaylightSavings/arduino_secrets.h
 Microcontroller_Time_Setting_Methods/WiFiTimeSet/arduino_secrets.h
+<<<<<<< HEAD
 Microcontroller_Time_Setting_Methods/WiFiTimeDriftCheck/arduino_secrets.h
 Microcontroller_Time_Setting_Methods/WiFiTimeDriftCheck/arduino_secrets.h
+=======
+>>>>>>> parent of 2280d59... gitignore
