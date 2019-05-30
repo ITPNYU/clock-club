@@ -16,6 +16,7 @@ Microcontroller_Time_Setting_Methods/WiFiTimeSet/arduino_secrets.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Microcontroller_Time_Setting_Methods/WiFiTimeDriftCheck/arduino_secrets.h
 Microcontroller_Time_Setting_Methods/WiFiTimeDriftCheck/arduino_secrets.h
 =======
@@ -27,3 +28,6 @@ Microcontroller_Time_Setting_Methods/.DS_Store
 >>>>>>> parent of 2280d59... gitignore
 =======
 >>>>>>> parent of 2280d59... gitignore
+=======
+>>>>>>> parent of 2280d59... gitignore
+Microcontroller_Time_Setting_Methods/.DS_Store
