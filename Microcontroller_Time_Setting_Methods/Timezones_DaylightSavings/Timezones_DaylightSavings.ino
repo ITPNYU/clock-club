@@ -7,11 +7,13 @@
     Calculating daylight savings time from time zone and epoch
 
   Circuit:
-    Arduino MKR1000 pr MKR1010 (change to WiFiNINA library for this)
+    Arduino MKR1000 or MKR1010, or Nano 33 IoT 
+    (change to WiFiNINA library for the latter two)
 
   Add SECRET_SSID and SECRET_PASS constants in a separate arduino_secrets.h file.
 
   created 11 Mar 2019
+  modified 14 Dec 2019
   by Tom Igoe
 */
 
@@ -75,7 +77,14 @@ void setup() {
   timeZone = timeZone + daylightSavings(dayOfWeek);
 
   Serial.println("time difference from GMT: " + String(timeZone));
-  rtc.setHours(rtc.getHours() + timeZone);
+  // if the GMT hour value is greater than the timeZone difference:
+  if (rtc.getHours() >= abs(timeZone)) {
+    rtc.setHours(rtc.getHours() + timeZone);
+    // if the GMT hour is less than the timeZone difference,
+    // then you need to add 24 hours to it:
+  } else {
+    rtc.setHours(24 + rtc.getHours() + timeZone);
+  }
 
   // print the time:
   Serial.print("Time: " );
