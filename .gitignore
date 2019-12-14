@@ -4,6 +4,7 @@ P5JS_clocks/SunMoonClock/libraries/p5.sound.js
 P5JS_clocks/SunMoonClock/node_modules/suncalc/.travis.yml
 */.DS_Store
 .DS_Store
+*.DS_Store
 Analog_Clock_Control/img/clock_control.svg
 Analog_Clock_Control/img/clock_control_bb.svg
 Analog_Clock_Control/img/.DS_Store
@@ -30,4 +31,6 @@ Microcontroller_Time_Setting_Methods/.DS_Store
 >>>>>>> parent of 2280d59... gitignore
 =======
 >>>>>>> parent of 2280d59... gitignore
+
+Programmable_LED_examples/.DS_Store
 Microcontroller_Time_Setting_Methods/.DS_Store
