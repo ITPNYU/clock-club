@@ -34,3 +34,6 @@ Microcontroller_Time_Setting_Methods/.DS_Store
 
 Programmable_LED_examples/.DS_Store
 Microcontroller_Time_Setting_Methods/.DS_Store
+RTC_Clock_Examples/WiFiTimeDriftCheck/arduino_secrets.h
+RTC_Clock_Examples/WiFiTimeDriftCheck/arduino_secrets.h
+*/arduino_secrets.h

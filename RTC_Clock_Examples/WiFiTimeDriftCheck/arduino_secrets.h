@@ -1,2 +1,2 @@
-#define SECRET_SSID ""     //  your network SSID (name)
-#define SECRET_PASS ""    // your network password
+#define SECRET_SSID "itpsandbox"     //  your network SSID (name)
+#define SECRET_PASS "NYU+s0a!+P?"    // your network password
