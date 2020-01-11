@@ -9,8 +9,9 @@
   to get the time on a POSIX (MacOS, Linux, et. al) command line, type:
   date "+%H:%M:%S"
   this will give you a string formatted like the compiler __TIME__ string
-  
+
   created 22 April 2018
+  updated 11 Jan 2020
   by Tom Igoe
 */
 // time
@@ -22,6 +23,7 @@ long lastCount = 0; // count of millis since last second
 void setup() {
   Serial.begin(9600);   // initialize serial communication
   while (!Serial);      // stop everything until serial monitor is open
+  Serial.setTimeout(10);
 }
 
 void loop() {
@@ -48,7 +50,7 @@ void loop() {
       minutes = 0;
       hours++;
     }
-    if (hours > 12) {     // rollover hours
+    if (hours > 23) {     // rollover hours
       hours = 0;
     }
     // print the time:
@@ -62,5 +64,3 @@ void loop() {
     Serial.println(seconds);
   }
 }
-
-
