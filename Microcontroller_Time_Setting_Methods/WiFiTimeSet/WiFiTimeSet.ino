@@ -17,8 +17,8 @@
     by Tom Igoe
 */
 #include <SPI.h>
-//#include <WiFi101.h>    // use this for MKR1000
-#include <WiFiNINA.h> // use this for MKR1010
+#include <WiFi101.h>    // use this for MKR1000
+//#include <WiFiNINA.h> // use this for MKR1010
 #include <RTCZero.h>
 #include "arduino_secrets.h"
 
@@ -43,7 +43,8 @@ void loop() {
 
   // when the second has changed, print the time:
   if (rtc.getSeconds() != lastSecond) {
-    Serial.println(getTimeStamp());
+    Serial.print(getTimeStamp());
+    Serial.println(" " + getDateStamp());
     lastSecond = rtc.getSeconds();
   }
 }
@@ -66,7 +67,7 @@ void connectToNetwork() {
   do {
     Serial.println("Attempting to get network time");
     epoch = WiFi.getTime();
-    delay(1000);
+    delay(2000);
   } while (epoch == 0);
 
   rtc.setEpoch(epoch);
@@ -93,5 +94,20 @@ String getTimeStamp() {
   if (rtc.getSeconds() <= 9) timestamp += "0";
   timestamp += rtc.getSeconds();
   timestamp += " GMT";
+  return timestamp;
+}
+
+
+// format the time as hh:mm:ss
+String getDateStamp() {
+  String timestamp = "";
+  if (rtc.getDay() <= 9) timestamp += "0";
+  timestamp += rtc.getDay();
+  timestamp += "/";
+  if (rtc.getMonth() <= 9) timestamp += "0";
+  timestamp += rtc.getMonth();
+  timestamp += "/";
+  if (rtc.getYear() <= 9) timestamp += "0";
+  timestamp += rtc.getYear();
   return timestamp;
 }
