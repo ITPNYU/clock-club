@@ -1,8 +1,8 @@
 /*
 
-    Setting the time using WiFi.getEpoch();
+    Setting the time using WiFi.getTime();
 
-    WiFi.getEpoch() connects to network time servers and gets the
+    WiFi.getTime() connects to network time servers and gets the
     UNIX epoch (seconds since 1/1/1970, 00:00:00). It then sets
     the realtime clock epoch with that time
 
@@ -66,7 +66,7 @@ void connectToNetwork() {
   unsigned long epoch;
   do {
     Serial.println("Attempting to get network time");
-    epoch = WiFi.getTime();
+    epoch = WiFi. ();
     delay(2000);
   } while (epoch == 0);
 
