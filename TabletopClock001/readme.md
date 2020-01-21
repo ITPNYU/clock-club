@@ -26,4 +26,3 @@ The rotary encoder was a [Bourns PEC11R-4220K-S0024](https://www.digikey.com/pro
 ## Programming
 
 The [program](TabletopClock001) is written for the Nano 33 IoT, but it could run on any of the MKR boards, or presumably any Arduino-compatible that uses a SAMD processor with the realtime clock on board.
-

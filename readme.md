@@ -25,6 +25,8 @@ This repo is written for students and scholars of interactive design. It assumes
 * [Microcontroller-Driven Quartz Clocks](https://github.com/ITPNYU/clock-club/tree/master/Analog_Clock_Control)
 * [Making Your Own Clock Hands](https://github.com/ITPNYU/clock-club/tree/master/Making_Custom_Clock_Hands)
 * [Two Stepper Motor-Driven Clock Mechanism](https://github.com/ITPNYU/clock-club/tree/master/two_stepper_clock_mechanism)
+* Notes on controlling the [VID28-05](VID28-05_mechanism), a two-stepper, concentric shaft mechanism, useful for when you want to make clocks where the two hands are not coupled to each other's movement. 
+* [Tabletop Clock](TabletopClock001) - a tabletop clock device built for the [ITP Tangible Interaction](https://itp.nyu.edu/classes/tangible-interaction) class.
 
 ### [Insipiration Links](works.md)
 
