@@ -35,9 +35,11 @@ int dimLEDBrightness = 0;
 int dstLEDBrightness = 0;
 
 // colors for the display:
+// used yellow and blue to be most readable by colorblind users;
+// red for setting the hands was invisible to the test subject.
 const long brightColor = 0x1247FF;
 const long dimColor = 0x09236F;
-const long settingColor = COLOR_RED;
+const long settingColor = COLOR_YELLOW;
 long fillColor = brightColor;
 
 // button and knob states:
@@ -144,6 +146,9 @@ void loop() {
   if (abs(knobChange) >= 4) {
     // get the direction (-1 or 1):
     int knobDirection = (knobChange / abs(knobChange));
+    // invert it (because we're turning the knob from the back, 
+    // when looking at the clock face:
+    knobDirection = -knobDirection;
     // use the change to change the current time property:
     timeSet(currentProperty, knobDirection);
     Serial.println(knobDirection);
