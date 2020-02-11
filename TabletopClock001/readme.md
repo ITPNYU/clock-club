@@ -21,8 +21,12 @@ The display is an LCD display from Tinkersphere, the [TS-336 TFT LCD display](ht
 
 The first display we looked at before that was the [SSD1306 OLED display](https://www.amazon.com/SSD1306/s?k=SSD1306), an inexpensive display with an I2C interface (and therefore requiring very few pins on the microcontroller). These displays are easy to use, and available from many retailers, but even the larger one was too small for our housing. The other display we considered was the [DFR0529](https://www.dfrobot.com/product-1794.html?search=DFR0529&description=true), a round TFT LCD display from DFRobot. The display was a good size for our housing, and a round display would have been ideal, but the [available library](https://github.com/DFRobot/DFRobot_ST7687S) was too slow to update the screen for our tastes, and we didn't have time to write a new library.
 
-The rotary encoder was a [Bourns PEC11R-4220K-S0024](https://www.digikey.com/products/en?keywords=PEC11R-4220K-S0024-ND), bought through Digikey, which we had in stock. The pushbuttons were [16mm illuminated pushbuttons](https://www.adafruit.com/product/1477), bought through Adafruit, which we had in stock. We used them because we wanted to show how to use built-in LEDs.
+We made one big mistake with the hands in that we used red as the color for the hand being set. It made the hand invisible to red-green colorblind users. So we changed the color to yellow, which is more visible, and hopefully different enough from the blue for most colorblind users to see.
+
+The rotary encoder was a [Bourns PEC11R-4220K-S0024](https://www.digikey.com/products/en?keywords=PEC11R-4220K-S0024-ND), bought through Digikey, which we had in stock. The pushbuttons were [16mm illuminated pushbuttons](https://www.adafruit.com/product/1477), bought through Adafruit, which we had in stock. We used them because we wanted to show how to use built-in LEDs. 
 
 ## Programming
 
 The [program](TabletopClock001) is written for the Nano 33 IoT, but it could run on any of the MKR boards, or presumably any Arduino-compatible that uses a SAMD processor with the realtime clock on board.
+
+In programming it, we had to reverse the direction of the encoder from the logical direction, because the user turns the encoder from the back while looking at the front of the clock.
