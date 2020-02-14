@@ -6,14 +6,14 @@
     UNIX epoch (seconds since 1/1/1970, 00:00:00). It then sets
     the realtime clock epoch with that time
 
-    Works on MKR1000, MKR1010
+    Works on MKR1000, MKR1010, Nano 33 IoT
 
     Make sure to add a file, arduino_secrets.h, with:
     #define SECRET_SSID ""    //  your network SSID (name)
     #define SECRET_PASS ""    // your network password
 
     created 30 April 2019
-    modified 29 May 2019
+    modified 14 Feb 2020
     by Tom Igoe
 */
 #include <SPI.h>
@@ -66,7 +66,7 @@ void connectToNetwork() {
   unsigned long epoch;
   do {
     Serial.println("Attempting to get network time");
-    epoch = WiFi. ();
+    epoch = WiFi.getTime();
     delay(2000);
   } while (epoch == 0);
 
