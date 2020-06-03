@@ -1,6 +1,7 @@
 # Tabletop Clock 
 ## aka "What Not To Do" Clock
 
+![The What Not To Do Clock, a digital clock with an analog face](what-not-to-do-clock.jpg)
 _Ben Light & Tom Igoe, Jan. 2020_
 
 This project is a tabletop clock, designed as a production example for our [Tangible Interaction](https://itp.nyu.edu/classes/tangible-interaction) class. We made it to demonstrate how to make a housing for an electronic device with tangible controls from a single block of wood. There are a number of mistakes we made along the way, so we've been lovingly referring to it as the "what not to do" clock. Below, we've detailed what not to do.
