@@ -10,15 +10,15 @@
 
     Make sure to add a file, arduino_secrets.h, with:
     #define SECRET_SSID ""    //  your network SSID (name)
-    #define SECRET_PASS ""    // your network password
+    #define SECRET_PASS ""    // your network passwordx
 
     created 30 April 2019
     modified 14 Feb 2020
     by Tom Igoe
 */
 #include <SPI.h>
-#include <WiFi101.h>    // use this for MKR1000
-//#include <WiFiNINA.h> // use this for MKR1010
+//#include <WiFi101.h>    // use this for MKR1000
+#include <WiFiNINA.h> // use this for MKR1010
 #include <RTCZero.h>
 #include "arduino_secrets.h"
 
