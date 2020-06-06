@@ -18,9 +18,9 @@ const int DISPLAY_WR = 3;
 const int DISPLAY_LCK = 7;
 
 long bgColor = 0x335599;  // royal blue
-int minuteHand = 40;      // length of minute hand in pixels
-int secondHand = 50;      // length of second hand in pixels
-int hourHand = 25;        // length of hour hand in pixels
+int minuteHand = 35;      // length of minute hand in pixels
+int secondHand = 45;      // length of second hand in pixels
+int hourHand = 20;        // length of hour hand in pixels
 int lastSecond = 0;       // previous second
 int lastMinute = 0;       // previous munute
 int lastHour = 0;         // previous hour
