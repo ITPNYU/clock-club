@@ -19,12 +19,11 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <RTCZero.h>
-#include <Encoder.h>
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 32 // OLED display height, in pixels
 
-#define OLED_RESET     4 // Reset pin # (or -1 if sharing Arduino reset pin)
+#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 RTCZero rtc;      // instance of the realtime clock
@@ -34,7 +33,7 @@ void setup() {
   Serial.begin(9600);
   // initialize the display library:
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // Address 0x3C for 128x32
-    Serial.println(F("SSD1306 setup failed"));
+    Serial.println("SSD1306 setup failed");
     while (true);
   }
 
@@ -44,8 +43,8 @@ void setup() {
   setDateFromCompile();
 
   // set alarm to show the date once a minute:
-  rtc.setAlarmTime(0, 0, 59);
-  rtc.enableAlarm(rtc.MATCH_SS);
+  rtc.setAlarmTime(12, 0, 00);
+  rtc.enableAlarm(rtc.MATCH_HHMMSS);
   rtc.attachInterrupt(showDate);
 }
 
@@ -65,6 +64,7 @@ void loop() {
 
 void displayWrite(String message) {
   display.clearDisplay();
+  display.setRotation(180);
   display.setTextSize(2); // Draw 2X-scale text
   display.setTextColor(WHITE);
   display.setCursor(0, 0);
