@@ -1,4 +1,4 @@
-# *The first rule of Clock Club is that no one checks the time at Clock Club.*
+# *"The first rule of Clock Club is that no one checks the time at Clock Club."*
 
 ## About This Repository
 
@@ -6,7 +6,7 @@ This repo is written with students and scholars of interactive design in mind. I
 
 ## Who We Are
 
-Clock Club started at NYU's [ITP](https://itp.nyu.edu) in about 2016 because a handful of us liked making clocks and needed external motivation and convesation to work on them. The group includes designers, programmers, electronics hobbyists, fabricators, and scholars. 
+Clock Club started at NYU's [ITP](https://itp.nyu.edu) in about 2016 because a handful of us like making timepieces and wanted external motivation and convesation to work on them. The group includes designers, programmers, electronics hobbyists, fabricators, and scholars.
 
 ## What You Need To Know
 
