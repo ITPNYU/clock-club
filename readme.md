@@ -6,11 +6,11 @@ This repo is written with students and scholars of interactive design in mind. I
 
 ## Who We Are
 
-Clock Club started at ITP in about 2016 because a handful of us liked making clocks and needed external motivation and convesation to work on them. The group includes designers, programmers, electronics hobbyists, fabricators, and scholars. 
+Clock Club started at NYU's [ITP](https://itp.nyu.edu) in about 2016 because a handful of us liked making clocks and needed external motivation and convesation to work on them. The group includes designers, programmers, electronics hobbyists, fabricators, and scholars. 
 
 ## What You Need To Know
 
-We assume you're interested in time and timekeeping, probably have a background in interactive design, but aren't necessarily an engineer or professional programmer. You know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs like NYU's [ITP](https://itp.nyu.edu), where this repo was developed. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2018).
+We assume you're interested in time and timekeeping, probably have a background in interactive design, but aren't necessarily an engineer or professional programmer. You know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2018).
 
 ## Tools and Platforms Used in This Repository
 
