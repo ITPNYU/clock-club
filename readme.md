@@ -1,11 +1,8 @@
+# *The first rule of Clock Club is that no one checks the time at Clock Club.*
 
-*The first rule of Clock Club is that no one checks the time at Clock Club.*
+## About This Repository
 
-This repository contains information on making clocks and timepieces and software or hardware projects related to timekeeping. 
-
-## What You Should Know In Advance
-
-This repo is written for students and scholars of interactive design. It assumes you know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs like NYU's [ITP](https://itp.nyu.edu), where this repo was developed. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2017).
+This repo is written with students and scholars of interactive design in mind. We assume you're interested in time and timekeeping, probably have a background in interactive design, but aren't necessarily an engineer or professional programmer. You know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs like NYU's [ITP](https://itp.nyu.edu), where this repo was developed. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2018).
 
 ## Tools and Platforms Used in This Repository
 
