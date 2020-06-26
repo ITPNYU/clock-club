@@ -16,27 +16,9 @@ This repo is written for students and scholars of interactive design. It assumes
 * [Vectorworks](http://www.vectorworks.net/) - we rely on the free educational version of Vectorworks' software for [students and educators](http://www.vectorworks.net/education)
 * [Bantam Tools](https://www.bantamtools.com/) (formerly Othermill) CNC machines
 
-## Projects In This Repository
+### External References
 
-* [Clocks in JavaScript using p5.js](https://github.com/ITPNYU/clock-club/tree/master/P5JS_examples)
-  * [Clock Animation Test](P5JS_examples/clockAnimationTest/) - a sketch that animates three images like a clock to test out different hand and face ideas.
-* [Programmable LED Clocks](https://github.com/ITPNYU/clock-club/tree/master/Programmable_LED_examples)
-* [Setting the Time on a Microcontroller-Driven LED (or other) Clock Project](https://github.com/ITPNYU/clock-club/tree/master/Microcontroller_Time_Setting_Methods)
-* [Microcontroller-Driven Quartz Clocks](https://github.com/ITPNYU/clock-club/tree/master/Analog_Clock_Control)
-* [Making Your Own Clock Hands](https://github.com/ITPNYU/clock-club/tree/master/Making_Custom_Clock_Hands)
-* [Two Stepper Motor-Driven Clock Mechanism](https://github.com/ITPNYU/clock-club/tree/master/two_stepper_clock_mechanism)
-* Notes on controlling the [VID28-05](VID28-05_mechanism), a two-stepper, concentric shaft mechanism, useful for when you want to make clocks where the two hands are not coupled to each other's movement. 
-* [Tabletop Clock](TabletopClock001) - a tabletop clock device built for the [ITP Tangible Interaction](https://itp.nyu.edu/classes/tangible-interaction) class.
-
-### [Insipiration Links](works.md)
-
-A collection of existing timepieces and time-related projects
-
-### [Bibliography](bibliography.md)
-
-A collection of books and articles on clocks and time
-
-### Information
+Videos, other repositories, tools, elsewhere on the internet.
 
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
 
