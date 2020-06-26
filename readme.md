@@ -2,7 +2,7 @@
 
 *The first rule of Clock Club is that no one checks the time at Clock Club.*
 
-This repository contains information on making clocks and timepieces.
+This repository contains information on making clocks and timepieces and software or hardware projects related to timekeeping. 
 
 ## What You Should Know In Advance
 
