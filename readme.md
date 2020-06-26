@@ -1,4 +1,3 @@
-# Clock Club
 
 *The first rule of Clock Club is that no one checks the time at Clock Club.*
 
