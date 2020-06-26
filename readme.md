@@ -2,7 +2,15 @@
 
 ## About This Repository
 
-This repo is written with students and scholars of interactive design in mind. We assume you're interested in time and timekeeping, probably have a background in interactive design, but aren't necessarily an engineer or professional programmer. You know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs like NYU's [ITP](https://itp.nyu.edu), where this repo was developed. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2018).
+This repo is written with students and scholars of interactive design in mind. It's a collection of materials we've gathered for our own projects and interest in the subject of time. There are software examples of how to make clocks here, microcontroller-driven hardware examples, and fabrication examples of how to make hands and mechanisms. There are also readings and links to other material we've found useful.
+
+## Who We Are
+
+Clock Club started at ITP in about 2016 because a handful of us liked making clocks and needed external motivation and convesation to work on them. The group includes designers, programmers, electronics hobbyists, fabricators, and scholars. 
+
+## What You Need To Know
+
+We assume you're interested in time and timekeeping, probably have a background in interactive design, but aren't necessarily an engineer or professional programmer. You know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs like NYU's [ITP](https://itp.nyu.edu), where this repo was developed. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2018).
 
 ## Tools and Platforms Used in This Repository
 
