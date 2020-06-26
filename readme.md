@@ -24,9 +24,9 @@ We assume you're interested in time and timekeeping, probably have a background 
 
 Videos, other repositories, tools, elsewhere on the internet.
 
-[ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is making precision clocks in a small workshop.
+[ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is a YouTube channel that's all about handmade mechanics, specifically clocks. In this series, they  are reconstructing the [Antikythera Mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism), a mechanical computer built in ancient Greece.
 
-[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. [Mooncalc](https://www.mooncalc.org) is the same for the moon, and [this table by Don Cross](http://cosinekitty.com/solar_system.html) updates in real time for many solar system objects.
+[Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. [Mooncalc](https://www.mooncalc.org) is the same for the moon.  [This web app by Don Cross](http://cosinekitty.com/solar_system.html) shows the movement on a map of many solar system objects, updating in real time as you move the map.
 
 [Armillary Sphere](https://vimeo.com/55019500) An animation for the Museum of the History of Science Oxford explaining armillary spheres.
 
