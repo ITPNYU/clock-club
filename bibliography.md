@@ -30,7 +30,7 @@ Sobel, D. (2014). [Longitude](https://www.amazon.com/Longitude-Genius-Greatest-S
 
 [A History of Braun part 2: Timepieces](http://www.core77.com/posts/24660/a-history-of-braun-design-part-2-timepieces-24660) Article on Dieter Rams' clock designs for Braun.
 
-[Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) 2013, Tim Urban, Waitbutwhy.com. Accessed Jun 209 2019. The title says it all.
+[Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) 2013, Tim Urban, Waitbutwhy.com. Accessed Jun 209 2019. The title says it all. Waitbutwhy.com has a [section of articles on time](https://waitbutwhy.com/?s=time). 
 
 [Electrical fluctuations from virus fast forward Hawaii time](https://abc3340.com/news/offbeat/electrical-fluctuations-from-virus-fast-forward-hawaii-time) Associated Press, Jun 5 2020. NEws story on why demand on Hawaii's electrical grid during the COVID-19 quarantine is affecting the speed of clocks in the state.
 
