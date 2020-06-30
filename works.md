@@ -8,6 +8,12 @@
 
 [Paolo Salvagione](https://www.autodesk.com/artist-in-residence/artists/paolo-salvagione) works on the Long Now clock and was a resident at Pier 9.
 
+[Last Clock](http://angesleva.iki.fi/art/last/#:~:text='Last'%20is%20like%20a%20familiar,minutes%2C%20and%20the%20innermost%20hours) 2002, by Jussi Ängeslevä with Ross Cooper. A screen-based clock where the hands are made from camera and media feeds.
+
+## Software Clocks
+
+[Lass Clock](http://cmuems.com/2018/60212f/lass/09/21/lass-clock/) a tidal clock showing tide movement on a synthesized landscape. 2018, author lass, in Golan Levin's [Interactivity & Computation](http://cmuems.com/2018/60212f/) class. Accessed June 29 2020.
+
 ## Indoor Clocks
 
 [Bulbdial Monochrome Kit](http://shop.evilmadscientist.com/productsmenu/791#) One of Evil Mad Scientist Labs' clock kits. Does a wonderful job at projecting the hands of the clock as shadows.
