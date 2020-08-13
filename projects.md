@@ -9,4 +9,4 @@
 * [Making Your Own Clock Hands](https://github.com/ITPNYU/clock-club/tree/master/ Making_Custom_Clock_Hands) - how to make clock hands, mostly for quartz clocks, using a small CNC mill.
 * [Two Stepper Motor-Driven Clock Mechanism](https://github.com/ITPNYU/clock-club/tree/master/two_stepper_clock_mechanism) - a custom clock mechanism designed by Ben Light, which uses two stepper motors. The hands are not linked by gears, so they can be driven independently of each other.
 * Notes on controlling the [VID28-05](VID28-05_mechanism), a two-stepper, concentric shaft mechanism, useful for when you want to make clocks where the two hands are not coupled to each other's movement. 
-* [Tabletop Clock](TabletopClock001) - a tabletop clock device built for the [ITP Tangible Interaction](https://itp.nyu.edu/classes/tangible-interaction) class by Tom Igoe and Ben Light.
+* [What Not To Do Clock](WhatNotToDoClock) - a tabletop clock device built for the [ITP Tangible Interaction](https://itp.nyu.edu/classes/tangible-interaction) class by Tom Igoe and Ben Light.
