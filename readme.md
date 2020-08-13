@@ -24,6 +24,7 @@ We assume you're interested in time and timekeeping, probably have a background 
 
 Videos, other repositories, tools, elsewhere on the internet.
 
+### Instruments
 [ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is a YouTube channel that's all about handmade mechanics, specifically clocks. In this series, they  are reconstructing the [Antikythera Mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism), a mechanical computer built in ancient Greece.
 
 [Suncalc](https://github.com/mourner/suncalc) is a javascript library for calculating the apparent position of the moon and sun given a date and latlong. [Mooncalc](https://www.mooncalc.org) is the same for the moon.  [This web app by Don Cross](http://cosinekitty.com/solar_system.html) shows the movement on a map of many solar system objects, updating in real time as you move the map.
@@ -34,10 +35,13 @@ Videos, other repositories, tools, elsewhere on the internet.
 
 [Paper Astrolabes](http://www.mhs.ox.ac.uk/students/03to04/Astrolabes/Starholder_intro.html) An exhibit of paper astrolabes from the 1500's, with instructions on building them.
 
+### Patents 
 [Accutron patent](http://www.decadecounter.com/accutron/US3162006.pdf), one of several, that shows the electromagnetically driven tuning fork timing mechanism. [This page](http://www.decadecounter.com/accutron/docs.htm) has a list of several more Accutron documents.
 
-[Tom Shannon](http://www.google.com/patents/US4579460) synchronous world clock with Fuller-Sadao map.
+[Tom Shannon](http://www.google.com/patents/US4579460) patent for a synchronous world clock with Fuller-Sadao map. "A synchronous world clock which allows a user to determine the exact time at any location on earth is disclosed"
 
+### Clock-Making Instructions
 [Clock instructable](http://www.instructables.com/id/How-to-build-C3Jr-a-sophisticated-word-clock/) detailing several more word clocks, including C3Jr mentioned in the first ITP Camp Clock Club session.
 
-[NY Horological Society](http://www.hs-ny.org/) teaches watch-making classes.
+### Organizations
+[NY Horological Society](http://www.hs-ny.org/) they watch-making classes and hold public events for those interested in horology.
