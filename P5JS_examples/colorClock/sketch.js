@@ -19,11 +19,11 @@ function draw() {
 	// need the date to get milliseconds:
 	let now = new Date();
 	// get the seconds and milliseconds as a decimal number:
-	let thisSecond = second() + now.getMilliseconds() / 1000;
+	let thisSecond = second() + (now.getMilliseconds() / 1000);
 	// get minutes and seconds as a decimal number:
-	let thisMinute = minute() + thisSecond / 60;
+	let thisMinute = minute() + Math.round(thisSecond / 60);
 	// get hours and minutes as a decimal number:
-	let thisHour = hour() + thisMinute / 60;
+	let thisHour = Math.round(hour() + (thisMinute / 60));
 	// set the sizes of the circles:
 	let minuteHand = windowWidth * 0.25;
 	let hourHand = map(thisHour, 0, 23, 0, minuteHand * 0.75);
