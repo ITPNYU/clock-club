@@ -4,6 +4,8 @@ For many different clock designs, we've been using cheap analog clock movements 
 
 The details here refer to the [Quartex Clear Clock Movement](https://www.klockit.com/quartexr-clear-quartz-clock-movement.html) and other Quartex movements from [Klockit](https://www.klockit.com/).
 
+[Link to repository files](https://github.com/ITPNYU/clock-club/tree/master/Making_Custom_Clock_Hands)
+
 ## Materials
 
 * 0.4mm brass
