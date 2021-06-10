@@ -34,6 +34,15 @@ Sobel, D. (2014). [Longitude](https://www.amazon.com/Longitude-Genius-Greatest-S
 
 [Electrical fluctuations from virus fast forward Hawaii time](https://abc3340.com/news/offbeat/electrical-fluctuations-from-virus-fast-forward-hawaii-time) Associated Press, Jun 5 2020. NEws story on why demand on Hawaii's electrical grid during the COVID-19 quarantine is affecting the speed of clocks in the state.
 
+Writer, Ben Turner-Staff. [“More Accurate Clocks May Add More Disorder to the Universe, Scientists Say.”](https://www.livescience.com/accurate-clocks-produce-more-entropy.html) livescience.com. Accessed June 10, 2021. https://www.livescience.com/accurate-clocks-produce-more-entropy.html.
+
+University, Lancaster. [“Clock Experiment Shows a Fundamental Connection Between Energy Consumption and Accuracy.”](https://scitechdaily.com/clock-experiment-shows-a-fundamental-connection-between-energy-consumption-and-accuracy/) SciTechDaily (blog), May 11, 2021. https://scitechdaily.com/clock-experiment-shows-a-fundamental-connection-between-energy-consumption-and-accuracy/.
+
+Pearson, A. N., Y. Guryanova, P. Erker, E. A. Laird, G. A. D. Briggs, M. Huber, and N. Ares. [“Measuring the Thermodynamic Cost of Timekeeping.”](https://doi.org/10.1103/PhysRevX.11.021029) Physical Review X 11, no. 2 (May 6, 2021): 021029. https://doi.org/10.1103/PhysRevX.11.021029.
+
+Kabil, Ahmed. [“How Long Is Now?”](https://medium.com/the-long-now-foundation/how-long-is-now-5caab213a46a) Medium, May 21, 2021. https://medium.com/the-long-now-foundation/how-long-is-now-5caab213a46a. Biographical article on the works of Long Now Foundation fellow [Alicia Eggert](https://longnow.org/people/associate/aliciaeggert/).
+
+
 ## Scholarly Articles
 
 Lindley, S. (2015). [Making Time](https://dl.acm.org/citation.cfm?doid=2675133.2675157). In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW '15). ACM, New York, NY, USA, 1442-1452.
