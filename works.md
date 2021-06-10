@@ -29,6 +29,10 @@
 
 [The Present](https://www.kickstarter.com/projects/scottthrift/the-present) is a one year clock. The kickstarter mentions a circuit to slow the second tick down; this [Design Boom article](http://www.designboom.com/technology/worlds-first-year-long-clock-thepresent-by-m-ss-ng-p-eces/) mentions custom German mechanisms but those also seem to show the customization of a different MCU.
 
+[3D Printed Digital Sundial](https://www.etsy.com/listing/704784323/3d-printed-digital-sundial) - Tells the time in shadow numerals as the light moves across it during the day. 
+
+[Tranquility Clock](https://wooden-gear-clocks.com/tranquilityclock/) - A wooden clock kit with a grasshopper escapement. 
+
 ## Watches
 
 [Time Traveller](http://mrjoneswatches.com/time-traveller/) by Mr. Jones Watches (Crispin Jones). The one moving hand has a tall building for every time zone, so it tells time in all time zones simultaneously. A dot tells the seconds.
@@ -64,3 +68,5 @@ Here's [another review of it](https://www.wallpaper.com/art/oclock-time-design-d
 [One Day Poem Pavilion](http://people.artcenter.edu/~jsong5/thesis/index.html) uses the sun's motion to project and animate a poem that changes through the course of a day and over seasons.
 
 [Quadrature](http://quadrature.co/) has inspiring clock-adjacent work, including [Voyager](http://quadrature.co/work/voyager/)
+
+[Studio Gang](https://linkin.bio/studiogang) is an architecture firm founded by Jeanne Gang whose buildings are often patterned to create interesting shadow patterns throughout the day as the sunlight moves across them. Their instagram gives many good examples.  
