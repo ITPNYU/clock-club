@@ -14,7 +14,7 @@ We assume you're interested in time and timekeeping, probably have a background 
 
 The site is organized into the following sections:
 
-* [Projects](Projects) - clocks, mechanisms, or other time-related examples that we've built, with instructions and/or source material
+* [Projects](projects) - clocks, mechanisms, or other time-related examples that we've built, with instructions and/or source material
 * [Bibliography](bibliography) - further reading on time and clocks
 * [Timepieces](works) - examples of clocks, watches, and other time-related devices, sculptures, buildings, etc.
 * [Organizations](organizations) - societies, foundations, schools, and other time-related organizations
