@@ -43,3 +43,9 @@ If you want to make a clock with independent hands, you need one of these. You c
 
 * [McMaster telescoping tubing](http://www.mcmaster.com/#aluminum-telescoping-tubing/=12kupe5) for multiple concentric rotating shafts (but thin walled). Brass also available.
 * [Concentric turntable bearings](http://www.aliexpress.com/item-img/18-450mm-Turntable-Bearing-Swivel-Plate-Lazy-Susan-New-Great-For-Mechanical-Projects/1586614309.html) like these might be helpful in astronimical mechanisms. Also available through [VXB](http://www.vxb.com/Hardware-Turntables-Lazy-Susans-Online-s/246.htm)
+
+# Realtime Clock Modules
+
+[Microcrystal RV-3032-C7](https://www.microcrystal.com/en/products/real-time-clock-rtc-modules/rv-3032-c7/) is a High Performance Temperature Compensated Real-Time Clock Module with I2C interface. It claims to offer "the world's best time accuracy across industrial temperature range at ultra-low current consumption".
+
+U-Blox [G60-ST-TM GPS timing chip](https://www.u-blox.com/en/product/ubx-g6010-st-tm-chip) 

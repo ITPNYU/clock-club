@@ -75,3 +75,27 @@ It has two similar but independent wheel trains, one for solar time and one for 
 From Will: Here’s a [link to a paper that’s about to come out](https://www.dropbox.com/s/8hkhgy589qjom1j/OloRadio_DIS2020.pdf?dl=0) that details the music player we built that explores different chronological and non-chronological temporal modalities with your listening history:
 
 Also, if interested here’s a [different kind of slow music player](https://www.dropbox.com/s/4g1iaykuif4nsnr/OllyFieldStudy_CHI2019.pdf?dl=0) with reduced control and only inquires into a chronological encoding of time, but that explores how the listening history archive can slowly age over time
+
+## 19 Jun 2020
+
+Links from June 4 2019:
+http://home.theodoregray.com/
+https://mechanicalgifs.com/
+http://wayback.archive-it.org/2566/20180418122236/http://kmoddl.library.cornell.edu/collection-toc.php
+https://www.stonybrook.edu/commcms/motiongen/
+http://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/
+http://www.pbs.org/wgbh/roadshow/season/23/san-diego-ca/appraisals/lepaute-annular-dial-clock-ca-1770--201804A19/
+https://www.pinterest.at/pin/551972498069476699/
+https://www.pinterest.com/pin/372250725432065624/
+https://www.rauantiques.com/french-annular-clock-by-leroy-cie
+https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/decimalClock/index.html
+https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/colorClock/index.html
+http://www.likeminds.camp/
+http://sketching-in-hardware.com/
+ 
+https://www.bantamtools.com/engineering-from-home/micro-machining-watch-parts
+ 
+ 
+Tom: Humans since 1982 have a similar quarantine clock https://www.instagram.com/p/B-MdLQOJGlV/
+
+A [Google Doc of notes](https://docs.google.com/document/d/1u34I6EPOuNyXIlGFmX88niI3-YpKagBRezuQYpsVFsI/edit?usp=sharing) to be parsed through

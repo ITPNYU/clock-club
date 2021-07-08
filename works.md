@@ -17,6 +17,10 @@ Maarten Baas. “[Schiphol Clock.](http://maartenbaas.com/real-time/schiphol-clo
 
 [Lass Clock](http://cmuems.com/2018/60212f/lass/09/21/lass-clock/) a tidal clock showing tide movement on a synthesized landscape. 2018, author lass, in Golan Levin's [Interactivity & Computation](http://cmuems.com/2018/60212f/) class. Accessed June 29 2020.
 
+Nuntinee Tansrisakul's [Present clock](https://editor.p5js.org/nun.noc21/present/bWWMc8fB8).
+
+Nuntinee Tansrisakul's [Timelapse Clock of the ITP floor](https://editor.p5js.org/nun.noc21/present/H4jEksKp3)
+
 ## Indoor Clocks
 
 [Bulbdial Monochrome Kit](http://shop.evilmadscientist.com/productsmenu/791#) One of Evil Mad Scientist Labs' clock kits. Does a wonderful job at projecting the hands of the clock as shadows.
@@ -37,7 +41,7 @@ Maarten Baas. “[Schiphol Clock.](http://maartenbaas.com/real-time/schiphol-clo
 
 “[De Fossard Solar Time Clock: Appreciating An Extreme Achievement Without A Loupe – Quill & Pad.](https://quillandpad.com/2018/01/08/de-fossard-solar-time-clock-appreciating-extreme-achievement-without-loupe/” Accessed April 14, 2021. A handmade clock with an eight-day movement with a Brocot-type escapement.
 
-
+“[Product Sketch: Clocks for Robots – Blog – BERG](http://berglondon.com/blog/2011/09/22/clocks-for-robots/).” Accessed July 8, 2021. A series of clock designs in which the time is displayed only in a QR code. 
 
 
 ## Watches

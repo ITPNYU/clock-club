@@ -21,3 +21,7 @@ The site is organized into the following sections:
 * [Tools](tools) - software and hardware tools that we've used for timepieces
 * [Parts and Suppliers](parts) - places to get stuff to make timepieces.
 * [Notes](notes) - things that have not been organized elsewhere. _(Contributors: please move things from here to other sections when you see where they belong)_
+
+## Contributors
+
+If you're looking for something to add, see the [issues list](https://github.com/ITPNYU/clock-club/issues/) for to-do items.
