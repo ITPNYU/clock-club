@@ -10,6 +10,9 @@
 
 [Last Clock](http://angesleva.iki.fi/art/last/#:~:text='Last'%20is%20like%20a%20familiar,minutes%2C%20and%20the%20innermost%20hours) 2002, by Jussi Ängeslevä with Ross Cooper. A screen-based clock where the hands are made from camera and media feeds.
 
+Maarten Baas. “[Schiphol Clock.](http://maartenbaas.com/real-time/schiphol-clock/” - A video-based clock in Schiphol airport.  Accessed April 14, 2021. Maaten Baas also has a series of [film clocks](http://maartenbaas.com/real-time/digital/) and [grandfather clocks](http://maartenbaas.com/real-time/grandfather-clocks/) that are worth visiting.
+
+
 ## Software Clocks
 
 [Lass Clock](http://cmuems.com/2018/60212f/lass/09/21/lass-clock/) a tidal clock showing tide movement on a synthesized landscape. 2018, author lass, in Golan Levin's [Interactivity & Computation](http://cmuems.com/2018/60212f/) class. Accessed June 29 2020.
@@ -31,6 +34,11 @@
 [3D Printed Digital Sundial](https://www.etsy.com/listing/704784323/3d-printed-digital-sundial) - Tells the time in shadow numerals as the light moves across it during the day. 
 
 [Tranquility Clock](https://wooden-gear-clocks.com/tranquilityclock/) - A wooden clock kit with a grasshopper escapement. 
+
+“[De Fossard Solar Time Clock: Appreciating An Extreme Achievement Without A Loupe – Quill & Pad.](https://quillandpad.com/2018/01/08/de-fossard-solar-time-clock-appreciating-extreme-achievement-without-loupe/” Accessed April 14, 2021. A handmade clock with an eight-day movement with a Brocot-type escapement.
+
+
+
 
 ## Watches
 

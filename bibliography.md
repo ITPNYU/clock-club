@@ -40,6 +40,9 @@ Pearson, A. N., Y. Guryanova, P. Erker, E. A. Laird, G. A. D. Briggs, M.
 
 Kabil, Ahmed. [“How Long Is Now?”](https://medium.com/the-long-now-foundation/how-long-is-now-5caab213a46a) Medium, May 21, 2021. https://medium.com/the-long-now-foundation/how-long-is-now-5caab213a46a. Biographical article on the works of Long Now Foundation fellow [Alicia Eggert](https://longnow.org/people/associate/aliciaeggert/).
 
+February 01, Jon Bues and 2021. “[Culture Of Time: New York’s Newest Public Clock Is A Triumph](https://www.hodinkee.com/articles/new-york-penn-stations-new-public-clock).” HODINKEE. Accessed April 14, 2021.
+
+“[Equation Of Time: What Is It And What’s The Attraction In A Watch? – Quill & Pad.](https://quillandpad.com/2018/04/24/equation-of-time-what-is-it-and-whats-the-attraction-in-a-watch/” Accessed April 14, 2021.
 
 ## Scholarly Articles
 
@@ -49,8 +52,17 @@ Martin, R., Holtzman, H. (2011). [Kairoscope: managing time perception and sched
 
 Mazmanian, M., Erickson, I., and Harmon, E. (2015). [Circumscribed Time and Porous Time: Logics as a Way of Studying Temporality](http://dl.acm.org/citation.cfm?id=2675231 ). In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (CSCW '15). ACM, New York, NY, USA, 1453-1464.
 
-
 Taylor, J. L., Soro, A., Roe, P., Hong, A. L., Brereton, M. (2017). [Situational When: Designing for Time Across Cultures](https://doi.org/10.1145/3025453.3025936 ). In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 6461-6474.
+
+### On Gravimeters
+
+[“Gravimetry](https://en.wikipedia.org/w/index.php?title=Gravimetry&oldid=1016391072).” In Wikipedia, April 6, 2021.
+
+Middlemiss, R. P., A. Samarelli, D. J. Paul, J. Hough, S. Rowan, and G. D. Hammond. “[Measurement of the Earth Tides with a MEMS Gravimeter.](https://doi.org/10.1038/nature17397.” Nature 531, no. 7596 (March 2016): 614–17. 
+
+
+Tang, Shihao, Huafeng Liu, Shitao Yan, Xiaochao Xu, Wenjie Wu, Ji Fan, Jinquan Liu, Chenyuan Hu, and Liangcheng Tu. [“A High-Sensitivity MEMS Gravimeter with a Large Dynamic Range.” Microsystems & Nanoengineering 5, no. 1 (October 7, 2019): 1–11](https://doi.org/10.1038/s41378-019-0089-7). Notes on a MEMS gravimeter
+
 
 ## Videos and Interactive Demos
 
