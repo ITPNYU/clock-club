@@ -12,6 +12,8 @@ Clock Club started at NYU's [ITP](https://itp.nyu.edu) in about 2016 because a h
 
 We assume you're interested in time and timekeeping, probably have a background in interactive design, but aren't necessarily an engineer or professional programmer. You know a little about computer programming. Examples are written in a few programming frameworks that are common in interaction design programs. For further reading on some of the basics we assume, you might want to check out the [ITP Physical Computing Site](https://itp.nyu.edu/physcomp/), the [ITP Fabrication Site](https://itp.nyu.edu/fab/), or the [ITP Intro to Computational Media site](https://github.com/ITPNYU/ICM-2018).
 
+## Site Organization
+
 The site is organized into the following sections:
 
 * [Projects](projects) - clocks, mechanisms, or other time-related examples that we've built, with instructions and/or source material
