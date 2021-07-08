@@ -26,6 +26,6 @@ The site is organized into the following sections:
 
 ## Contributors
 
-Contributors to this site include Ben Light, Jeff Feddersen, Tom Igoe, Nuntinee Tansrisakul, Arnab Chakravarty, Yeseul Song, and Will Odom. 
+Contributors to this site include Ben Light, Jeff Feddersen, Tom Igoe, Nuntinee Tansrisakul, Arnab Chakravarty, Che-Wei Wang, Yeseul Song, and Will Odom. 
 
 If you're looking for something to add, see the [issues list](https://github.com/ITPNYU/clock-club/issues/) for to-do items.
