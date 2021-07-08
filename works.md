@@ -4,7 +4,7 @@
 
 [The Chronophage](http://www.johnctaylor.com/the-chronophage/) by John C. Taylor. An analog clock with an insect theme. How he creates the lighting effect without changing the lights is interesting.
 
-[The 10,000 Year Clock](http://longnow.org/clock/) by the Longnow Foundation. Originated by Danny Hillis, Brian Eno, and Kevin Kelly, the 10K year clock is a monument intended to help encourage very long-term thinking. The basic premise of the Longnow foundation is this: civilization has been around ~10,000 years. If we plan to make it another 10,000, we need to get better at long term thinking.
+[The 10,000 Year Clock](http://longnow.org/clock/) by the [Longnow Foundation](https://www.longnow.org). Originated by Danny Hillis, Brian Eno, and Kevin Kelly, the 10K year clock is a monument intended to help encourage very long-term thinking. 
 
 [Paolo Salvagione](https://www.autodesk.com/artist-in-residence/artists/paolo-salvagione) works on the Long Now clock and was a resident at Pier 9.
 
@@ -17,7 +17,6 @@
 ## Indoor Clocks
 
 [Bulbdial Monochrome Kit](http://shop.evilmadscientist.com/productsmenu/791#) One of Evil Mad Scientist Labs' clock kits. Does a wonderful job at projecting the hands of the clock as shadows.
-
 
 [11+ WORLD CLOCK](http://store.leibal.com/products/11-world-clock) by Leibal. Shows time in different time zones by rolling the clock.
 
@@ -43,18 +42,21 @@
 
 [Working Watch Cufflinks](http://www.amazon.com/Watch-Working-Round-Cufflinks-Presentation/dp/B00PJ1P9TC/ref=sr_1_4?ie=UTF8&qid=1461955802&sr=8-4&keywords=working+watch+cufflinks) Why not?
 
-[Christiaan van der Klaauw](http://www.klaauw.com/) specializes in astronomical complications. JF - I like ones with spherical (rather than flat) moon phase indicators.
+[Christiaan van der Klaauw](http://www.klaauw.com/) specializes in astronomical complications. Jeff Feddersen prefers the ones with spherical (rather than flat) moon phase indicators.
 
 [Hodinkee](https://www.hodinkee.com/) has hi-res pictures of fancy watches.
 
 [Dezeen's List of Watch Brands](https://www.dezeen.com/dezeen-watch-store-brands/) Pure watch design porn. So many things we want there!
+
+[Ressence](https://ressencewatches.com/) - Mechanical watches with an [electronic time-setting mechanism](https://ressencewatches.com/innovation/e-crown). Models include the [Type 5](https://ressencewatches.com/watches/type-5), in which all components are encased in oil, to make it viewable underwater. Their [simulator](https://ressencewatches.com/beyond-hands) gives a good idea of the movement of their watches. 
+
+[Ochs und Junior](https://www.ochsundjunior.swiss/watches/day-night/shop/) - Swiss watchmakers of astronomical watches, models include the [Brass Purist](https://www.ochsundjunior.swiss/watches/day-night/shop/), [Moon Phase Trilogy](https://www.ochsundjunior.swiss/moon-phase-trilogy/), and more.  
 
 ## Orreries and Armillaries
 
 [Aeroport Orly Ouest Horloge Astronomique](http://www.patrimoine-horloge.fr/as-orlyo.html) by Alfred Faullimel and others. A large yet compact depiction of several astronomic properties of the earth, moon, sun and solar system.
 
 [Equinox](http://willware.blogspot.com/2008/07/3d-printer-project-at-victoria.html) is a sun-powered 3D printer similar to an armillary sphere (see above).
-
 
 ## Other Timepieces
 

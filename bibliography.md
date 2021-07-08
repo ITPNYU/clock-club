@@ -1,6 +1,5 @@
 # A Bibliography of Time and Clock-Related Reading
 
-
 ## Books
 Aveni, A. F. (2003). [Empires of time: Calendars, clocks and cultures](https://www.amazon.com/Empires-Time-Calendars-Cultures-Mesoamerican/dp/0870816721/ref=sr_1_1?ie=UTF8&qid=1529660043&sr=8-1&keywords=empires+of+time). Niwot, CO: University Press of Colorado.
 
@@ -23,7 +22,6 @@ Levine, R. (2012). [A Geography of Time: The Temporal Misadventures of a Social 
 Riskin, J. (2016). [The Restless Clock: A History of the Centuries-Long Argument Over What Makes Living Things Tick](http://press.uchicago.edu/ucp/books/book/chicago/R/bo21519800.html). Chicago: University of Chicago Press
 
 Sobel, D. (2014). [Longitude](https://www.amazon.com/Longitude-Genius-Greatest-Scientific-Problem/dp/080271529X/ref=sr_1_1?s=books&ie=UTF8&qid=1529590789&sr=1-1&keywords=longitude). London: Fourth Estate. A popular history of the development of portable timepieces and their relation to the practice of navigation. 
-
 
 ## Journalistic Articles & Blog Posts
 [From Sundials to Atomic Clocks](http://www.nist.gov/pml/general/upload/1796.pdf) is a government publication with a lot of interesting information on the history of timekeeping.
@@ -53,3 +51,21 @@ Mazmanian, M., Erickson, I., and Harmon, E. (2015). [Circumscribed Time and Poro
 
 
 Taylor, J. L., Soro, A., Roe, P., Hong, A. L., Brereton, M. (2017). [Situational When: Designing for Time Across Cultures](https://doi.org/10.1145/3025453.3025936 ). In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 6461-6474.
+
+## Videos and Interactive Demos
+
+[ClickSpring](https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA) is a YouTube channel that's all about handmade mechanics, specifically clocks. In this series, they  are reconstructing the [Antikythera Mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism), a mechanical computer built in ancient Greece.
+
+[Armillary Sphere](https://vimeo.com/55019500) An animation for the Museum of the History of Science Oxford explaining armillary spheres.
+
+[Astrolabe](https://www.ted.com/talks/tom_wujec_demos_the_13th_century_astrolabe#t-2360) Tom Wujec explains astrolabes.
+
+[Paper Astrolabes](http://www.mhs.ox.ac.uk/students/03to04/Astrolabes/Starholder_intro.html) An exhibit of paper astrolabes from the 1500's, with instructions on building them.
+
+### Patents 
+[Accutron patent](http://www.decadecounter.com/accutron/US3162006.pdf), one of several, that shows the electromagnetically driven tuning fork timing mechanism. [This page](http://www.decadecounter.com/accutron/docs.htm) has a list of several more Accutron documents.
+
+[Tom Shannon](http://www.google.com/patents/US4579460) patent for a synchronous world clock with Fuller-Sadao map. "A synchronous world clock which allows a user to determine the exact time at any location on earth is disclosed"
+
+### Clock-Making Instructions
+[Clock instructable](http://www.instructables.com/id/How-to-build-C3Jr-a-sophisticated-word-clock/) detailing several more word clocks, including C3Jr mentioned in the first ITP Camp Clock Club session.
