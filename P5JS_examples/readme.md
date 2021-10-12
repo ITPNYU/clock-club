@@ -27,7 +27,7 @@ unitValue * 2 * PI / number of divisions
 
 For example, if it's 15 minutes past the hour, then:
 
-15*2*PI / 60 = PI/2 = the hand is pointing to the right.
+15 * 2 * PI / 60 = PI/2 = the hand is pointing to the right.
 
 Te circle around the edge of [clock001](https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/clock001/index.html) is simply an arc starting at 0 and going to the position of the seconds.
 
