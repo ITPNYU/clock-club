@@ -33,15 +33,15 @@ Te circle around the edge of [clock001](https://rawgit.com/ITPNYU/clock-club/mas
 
 ## See the Clocks in Action
 
-[clock001](https://itpnyu.io/clock-club/P5JS_examples/clock001/index.html) A basic analog clock with the hands offset from the center, and the seconds represented by an arc around the edge of the circle.
+[clock001](https://itpnyu.github.io/clock-club/P5JS_examples/clock001/) A basic analog clock with the hands offset from the center, and the seconds represented by an arc around the edge of the circle.
 
-[clock002](https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/clock001/index.html) A variation on clock001 which takes serial input from a microcontroller and sets the time using values from a rotary encoder and pushbutton attached to the microcontroller. The Arduino code is included.
+[clock002](https://itpnyu.github.io/clock-club/P5JS_examples/clock002/) A variation on clock001 which takes serial input from a microcontroller and sets the time using values from a rotary encoder and pushbutton attached to the microcontroller. The Arduino code is included.
 
 
-[SunMoonClock](https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/SunMoonClock/index.html) Some clocks depend on the position of the sun and the moon. The [suncalc](https://github.com/mourner/suncalc) library calculates these for you, using your [geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) and the time. This example draws a clock like the previous example, but also adds the moon and sun. It uses the [suncalc](https://github.com/mourner/suncalc) library and your geolocation to calculate the sun and moon's position (azimuth) relative to you. It then draws them in their proper positions for the current date and time, and your location. North is shown at the top of the clock.
+[SunMoonClock](https://itpnyu.github.io/clock-club/P5JS_examples/SunMoonClock/) Some clocks depend on the position of the sun and the moon. The [suncalc](https://github.com/mourner/suncalc) library calculates these for you, using your [geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) and the time. This example draws a clock like the previous example, but also adds the moon and sun. It uses the [suncalc](https://github.com/mourner/suncalc) library and your geolocation to calculate the sun and moon's position (azimuth) relative to you. It then draws them in their proper positions for the current date and time, and your location. North is shown at the top of the clock.
 
-[Decimal Clock](https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/decimalClock/index.html) - a clock based on the French revolution-era [decimal time scheme](https://en.wikipedia.org/wiki/Decimal_time).
+[Decimal Clock](https://itpnyu.github.io/clock-club/P5JS_examples/decimalClock) - a clock based on the French revolution-era [decimal time scheme](https://en.wikipedia.org/wiki/Decimal_time).
 
-[Color Clock](https://rawgit.com/ITPNYU/clock-club/master/P5JS_examples/colorClock/index.html) - a clock that tells time using the [HSV color wheel](https://www.researchgate.net/figure/HSV-color-wheel_fig6_228701246). Red is twelve o'clock, green is 4 o'clock, blue is seven o'clock. The inner circle is the hours, and grows over 24 hours. The middle circle is the minutes. The outer ring is the seconds.
+[Color Clock](https://itpnyu.github.io/clock-club/P5JS_examples/colorClock/) - a clock that tells time using the [HSV color wheel](https://www.researchgate.net/figure/HSV-color-wheel_fig6_228701246). Red is twelve o'clock, green is 4 o'clock, blue is seven o'clock. The inner circle is the hours, and grows over 24 hours. The middle circle is the minutes. The outer ring is the seconds.
 
 See also Christer Nilsson's [Bezier Clock](https://christernilsson.github.io/Lab/2017/081-BezierClock/), which uses p5.js to make a clock of Bezier curves
