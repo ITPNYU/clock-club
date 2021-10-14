@@ -157,22 +157,23 @@ function keyPressed() {
 // if new serial data comes in:
 function serialEvent() {
   let inData = serial.readLine();
+  console.log(inData);
   if (inData) {
 // if there's a string, convert it to a JSON object:
     let readings = JSON.parse(inData);
 
     // if there is a valid button reading:
-    if (readings['button']) {
+    if (readings.button) {
       // change time setting mode:
-      settingMode = readings['button'];
+      settingMode = readings.button;
     }
     // if there is a valid encoder reading:
-    if (readings['encoder']) {
+    if (readings.encoder) {
       // add encoder value to current time property 
       // and % 60 or %12 as needed
       switch (settingMode) {
         case 1: // set seconds
-          clockSecond += readings['encoder'];
+          clockSecond += readings.encoder;
           clockSecond %= 60;
           // adjust for negative values:
           if (clockSecond < 0) {
@@ -180,7 +181,7 @@ function serialEvent() {
           }
           break;
         case 2: // set seconds
-          clockMinute += readings['encoder'];
+          clockMinute += readings.encoder;
           clockMinute %= 60;
           // adjust for negative values:
           if (clockMinute < 0) {
@@ -188,7 +189,7 @@ function serialEvent() {
           }
           break;
         case 3: // set seconds
-          clockHour += readings['encoder'];
+          clockHour += readings.encoder;
           clockHour %= 12;
           // adjust for negative values:
           if (clockHour < 0) {
