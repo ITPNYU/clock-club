@@ -37,6 +37,7 @@ Te circle around the edge of [clock001](https://rawgit.com/ITPNYU/clock-club/mas
 
 [clock002](https://itpnyu.github.io/clock-club/P5JS_examples/clock002/) A variation on clock001 which takes serial input from a microcontroller and sets the time using values from a rotary encoder and pushbutton attached to the microcontroller. The Arduino code is included.
 
+[clock003](https://itpnyu.github.io/clock-club/P5JS_examples/clock003/) A variation on clock001 which takes keyboard input from a microcontroller and sets the time using values from a rotary encoder and pushbutton attached to the microcontroller. The Arduino code is included.
 
 [SunMoonClock](https://itpnyu.github.io/clock-club/P5JS_examples/SunMoonClock/) Some clocks depend on the position of the sun and the moon. The [suncalc](https://github.com/mourner/suncalc) library calculates these for you, using your [geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) and the time. This example draws a clock like the previous example, but also adds the moon and sun. It uses the [suncalc](https://github.com/mourner/suncalc) library and your geolocation to calculate the sun and moon's position (azimuth) relative to you. It then draws them in their proper positions for the current date and time, and your location. North is shown at the top of the clock.
 
