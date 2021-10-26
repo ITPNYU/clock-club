@@ -24,7 +24,7 @@ mode 3: set hours from encoder
 If the encoder object is received, the sketch changes the current time
 parameter using the value of the encoder.
 
-Arduino code for this example is in the sketch folder.
+Arduino code for this example is in the sketch folder. Only works on USB-native Arduinos
 
 Uses input from the keyboard (WASD without the W): 
 * d moves clock forward
