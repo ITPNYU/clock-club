@@ -13,7 +13,7 @@
     #define SECRET_PASS ""    // your network passwordx
 
     created 30 April 2019
-    modified 14 Feb 2020
+    modified 26 Apr 2021
     by Tom Igoe
 */
 #include <SPI.h>
@@ -25,6 +25,8 @@
 RTCZero rtc;
 int reconnects = 0; // how many times you've reconnected to the network
 int lastSecond;     // last second value, for watching passing seconds
+
+unsigned long startTime;
 
 void setup() {
   Serial.begin(9600);
@@ -46,7 +48,10 @@ void loop() {
     Serial.print(getTimeStamp());
     Serial.println(" " + getDateStamp());
     lastSecond = rtc.getSeconds();
+    // get the total uptime of the device:
+    Serial.println(getUptime(1));
   }
+
 }
 
 
@@ -71,6 +76,7 @@ void connectToNetwork() {
   } while (epoch == 0);
 
   rtc.setEpoch(epoch);
+  startTime = epoch;
 
   // increment the reconnect count:
   reconnects++;
@@ -110,4 +116,41 @@ String getDateStamp() {
   if (rtc.getYear() <= 9) timestamp += "0";
   timestamp += rtc.getYear();
   return timestamp;
+}
+
+
+// format uptime:
+String getUptime(int format) {
+  unsigned long upNow = rtc.getEpoch() - startTime;
+  int upSecs = upNow % 60;
+  int upMins = (upNow % 3600L) / 60;
+  int upHours = (upNow % 86400L) / 3600;
+  int upDays = (upNow % 31556926L) / 86400L;
+  String uptime = format2Digits(upDays);
+  if (format == 0) { // short
+    uptime += ":";
+    uptime += format2Digits(upHours);
+    uptime += ":";
+    uptime += format2Digits(upMins);
+    uptime += ":";
+    uptime += format2Digits(upSecs);
+  } else { // long
+    uptime += " days, ";
+    uptime += format2Digits(upHours);
+    uptime += ": ";
+    uptime += format2Digits(upMins);
+    uptime += ": ";
+    uptime += format2Digits(upSecs);
+  }
+  return uptime;
+}
+
+// format digit string:
+String format2Digits(int number) {
+  String result = "";
+  if (number < 10) {
+    result += "0";
+  }
+  result += String(number);
+  return result;
 }
