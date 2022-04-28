@@ -51,7 +51,6 @@ void loop() {
     // get the total uptime of the device:
     Serial.println(getUptime(1));
   }
-
 }
 
 
