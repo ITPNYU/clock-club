@@ -104,17 +104,8 @@ console.log(years + ' years '
 
 ## Time Logging on the Microcontroller
 
-When you're datalogging, it's often necessary to attach a time stamp to each set of sensor readings, and you need coordinated time for that. The simplest solution if you're logging sensor data to a web server via WiFi is to let the server timestamp each reading. However, there may be reasons to time stamp locally by the microcontroller as well. If that is the case, then you want to attach a real-time clock to the microcontroller, or use a controller with one built-in, like the Nano 33 IoT or the MKR boards. The [RTCZero]((https://www.arduino.cc/reference/en/libraries/rtczero/)) library lets you access that realtime clock, and the WiFi libraries let you set the clock by making a network time server request, using the command `WiFi.getTime()`. 
+When you're datalogging, it's often necessary to attach a time stamp to each set of sensor readings, and you need coordinated time for that. The simplest solution if you're logging sensor data to a web server via WiFi is to let the server timestamp each reading. However, there may be reasons to time stamp locally by the microcontroller as well. If that is the case, then you want to attach a real-time clock to the microcontroller, or use a controller with one built-in, like the Nano 33 IoT or the MKR boards. The [RTCZero](https://www.arduino.cc/reference/en/libraries/rtczero/) library lets you access that realtime clock, and the WiFi libraries let you set the clock by making a network time server request, using the command `WiFi.getTime()`. 
 
-On the Arduino SAMD boards (Nano 33 IoT, BLE, MKR boards), there is a Real-time Clock that allows you to keep time in hours, minutes and seconds. the RTCZero library allows you to access this feature of the microcontroller. There several examples for setting the time using this library in [this repository](Microcontroller_Time_Setting_Methods). There is an example which uses WiFi to connect to the network and get the time, then sets the RTC using the epoch at [this link]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/WiFiTimeSet/WiFiTimeSet.ino). In this example, you can see some similar time difference calculations as those above in the [`getUptime` function (line 122)](https://github.com/ITPNYU/clock-club/blob/2e73d280f02625948d21c1e7ae69216f9e46cecc/Microcontroller_Time_Setting_Methods/WiFiTimeSet/WiFiTimeSet.ino#L122).  Because you're working in integers, the math can be simpler:
+On the Arduino SAMD boards (Nano 33 IoT, BLE, MKR boards), there is a Real-time Clock that allows you to keep time in hours, minutes and seconds. the RTCZero library allows you to access this feature of the microcontroller. There several examples for setting the time using this library in [this repository](Microcontroller_Time_Setting_Methods). 
 
-````arduino
-unsigned long upTime = rtc.getEpoch() - startTime;
-int upSecs = upTime % 60;
-int upMins = (upTime % 3600L) / 60;
-int upHours = (upTime % 86400L) / 3600;
-int upDays = (upTime % 31556926L) / 86400L;
-````
-The `L` on the end of the constants is a C language formatting element indicating that they should be stored as long integers. 
-
-In a connected system, it's better to let the server keep track of timestamps, since it's the one running all the time. But when you need to keep a client device up and running, the RTC library is very useful. Without it, you're constantly checking with the server or with a time server for the correct time. 
+In a connected system, it's better to let the server keep track of timestamps, since it's the one running all the time. But when you need to keep a client device up and running, a real-time clock is very useful. Without it, you're constantly checking with the server or with a time server for the correct time. 
