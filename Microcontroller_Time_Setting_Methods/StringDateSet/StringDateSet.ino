@@ -30,7 +30,7 @@ void loop() {
     int year = Serial.parseInt();   // convert day to an int
     int month = Serial.parseInt();  // convert month to an int
     int day = Serial.parseInt();    // convert year to an int
-                                    // set the date:
+    // set the date:
     rtc.setDate(day, month, year);
   }
 

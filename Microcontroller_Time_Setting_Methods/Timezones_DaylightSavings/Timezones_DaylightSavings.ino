@@ -13,13 +13,13 @@
   Add SECRET_SSID and SECRET_PASS constants in a separate arduino_secrets.h file.
 
   created 11 Mar 2019
-  modified 14 Dec 2019
+  modified 9 Apr 2023
   by Tom Igoe
 */
 
 #include <SPI.h>
-#include <WiFi101.h>
-//#include <WiFiNINA.h>
+// #include <WiFi101.h>
+#include <WiFiNINA.h>
 #include <WiFiUdp.h>
 #include <RTCZero.h>
 #include "arduino_secrets.h"
@@ -29,8 +29,8 @@ int timeZone = -5;  // your time zone relative to UTC; -5 is US Eastern time
 
 void setup() {
   Serial.begin(9600);
-  // wait for serial monitor to open
-  while (!Serial);
+  // wait 3 seconds for serial monitor to open
+  if (!Serial) delay(3000);
 
   // initialize the realtime clock:
   rtc.begin();

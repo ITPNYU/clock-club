@@ -108,33 +108,6 @@ When you're datalogging, it's often necessary to attach a time stamp to each set
 
 On the Arduino SAMD boards (Nano 33 IoT, BLE, MKR boards), there is a Real-time Clock that allows you to keep time in hours, minutes and seconds. the RTCZero library allows you to access this feature of the microcontroller. There several examples for setting the time using this library in [this repository](Microcontroller_Time_Setting_Methods). 
 
-### Setting the Time on a Microcontroller via WiFi
-
-There is an example that uses WiFi to connect to the network and get the time, then sets the RTC using the epoch at [this link]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/WiFiTimeSet/). The  time setting command using the WiFi library is called `getTime` and it works like so:
-
-````arduino
-// check that you are connected:
-if ( WiFi.status() == WL_CONNECTED) {
-  // set the time from the network:
-  unsigned long epoch;
-  do {
-    Serial.println("Attempting to get network time");
-    epoch = WiFi.getTime();
-    delay(2000);
-  } while (epoch == 0);
-// you got the time
-Serial.println(epoch);
-````
-
-Once you've got it, you can set your realtime clock, assuming your clock library has a command to set the time from the UNIX epoch. For the RTCZero library, the command is setEpoch:
-````arduino
-  rtc.setEpoch(epoch);
-````
-For Stoffregen's time library, it's setTime:
-````arduino
-  rtc.setTime(epoch);
-````
-
 ### Tracking Uptime
 
 It's often useful to track how long your microcontroller has been running.  In [this example]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/WiFiTimeSet/WiFiTimeSet.ino), you can see that in action. It uses some some time difference calculations similar to the JavaScript ones above  in the [`getUptime` function (line 122)]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/WiFiTimeSet/WiFiTimeSet.ino#L122).  Because you're working in integers, the math can be simpler:
