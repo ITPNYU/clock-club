@@ -32,14 +32,14 @@ and you'll get `Sun Apr  9 11:13:23 EDT 2023`
 
 You can also format your date with the following modifiers:
 
-%C - century
-%Y - 4-digit year
-%y - 2-digit year (no century)
-%m - month
-%d - day
-%H - hour
-%M - minute
-%S - second
+* %C - century
+* %Y - 4-digit year
+* %y - 2-digit year (no century)
+* %m - month
+* %d - day
+* %H - hour
+* %M - minute
+* %S - second
 
 So for example, changing the command like so:
 ````
