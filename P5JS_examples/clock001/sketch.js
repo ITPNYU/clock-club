@@ -16,11 +16,11 @@ by Tom Igoe
 */
 
 // parameters of the clock:
-var clockRadius = 200;
-var hourHand = 60;
-var minuteHand = 90;
+var clockRadius = 150;
+var hourHand = 50;
+var minuteHand = 80;
 var secondHand = minuteHand;
-var handStart = -10;
+var handStart = -8;
 
 function setup() {
   // set the general parameters for drawing:
