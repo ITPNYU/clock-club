@@ -13,7 +13,7 @@
 RTCZero rtc;  // library for the Realtime Clock
 
 // the interval between reads:
-const int interval = 7;  
+const int interval = 7;
 // the last time you read, in seconds:
 int lastSecond = 0;
 int elapsedTime = 0;
@@ -37,13 +37,13 @@ void loop() {
     elapsedTime++;
     // modulo it with the interval so it rolls over every interval:
     elapsedTime %= interval;
-    // update lastSecond:
-    lastSecond = thisSecond;
     // when the interval passes, update us:
     if (elapsedTime == 0) {
       Serial.print(lastSecond);
       Serial.print("\t");
       Serial.println(thisSecond);
     }
+    // update lastSecond:
+    lastSecond = thisSecond;
   }
 }
