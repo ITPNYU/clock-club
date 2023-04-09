@@ -17,8 +17,8 @@ by Tom Igoe
 
 // parameters of the clock:
 var clockRadius = 150;
-var hourHand = 50;
-var minuteHand = 80;
+var hourHand = 45;
+var minuteHand = 70;
 var secondHand = minuteHand;
 var handStart = -8;
 
