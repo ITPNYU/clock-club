@@ -1,6 +1,7 @@
 
 ## Projects In This Repository
 
+* [Tracking Time in a Networked System](timestamps) - an overview of how to track time using JavaScripts Date API, and of real-time clocks on microcontrollers. 
 * [Clocks in JavaScript using p5.js](P5JS_examples) - a collection of JavaScript clock examples using [p5.js](https://p5js.org)
 * Arduino-Based Clock Examples
    * [Programmable LED Clocks](Programmable_LED_examples) - clock examples using programmable LEDs such as the WS2812 (NeoPixel), APA102C, etc.
