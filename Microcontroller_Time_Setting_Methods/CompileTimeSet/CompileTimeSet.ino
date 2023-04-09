@@ -9,7 +9,7 @@
   Apr 22 2018
 
   created 28 May 2016
-  updated 22 April 2017
+  updated 9 April 2023
   by Tom Igoe
 */
 // time
@@ -20,7 +20,7 @@ long lastCount = 0; // count of millis since last second
 
 void setup() {
   Serial.begin(9600);   // initialize serial communication
-  while (!Serial);      // stop everything until serial monitor is open
+  if (!Serial) delay(3000);      // wait 3 secs if serial monitor is not  open
 
   // get the time from the compiler. __TIME__ returns
   // a string of the time the sketch was compiled, as hh:mm:ss
