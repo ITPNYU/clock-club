@@ -108,6 +108,42 @@ When you're datalogging, it's often necessary to attach a time stamp to each set
 
 On the Arduino SAMD boards (Nano 33 IoT, BLE, MKR boards), there is a Real-time Clock that allows you to keep time in hours, minutes and seconds. the RTCZero library allows you to access this feature of the microcontroller. There several examples for setting the time using this library in [this repository](Microcontroller_Time_Setting_Methods). 
 
+### Time Intervals
+
+Sometimes you need something to happen periodically. The Arduino RTCZero library has an excellent alarm feature for this, but it's limited to one alarm per minute at best. Sometimes, though, you need to check every few seconds. You might think to check this by saying:
+
+````arduino
+  if (thisSecond - lastReadTime >= interval) {
+    // the interval has passed.
+  }
+````
+But this doesn't work consistently. Why? The seconds roll over. 
+
+How far apart are the times 11:59:53 and 12:00:03?  They're ten seconds apart. The formula above would give you -50 which is not right. A quick way around this is to use the absolute value:
+````arduino
+  if (abs(thisSecond - lastReadTime) >= interval) {
+    // the interval has passed.
+  }
+````
+With this formula, you'd get 50 seconds difference. This is still wrong, but it's greater than your interval. So for many cases it works fine. An accurate way to check for change islike this:
+````arduino
+  int change = thisSecond - lastSecond;
+  // difference is negative at the top of the minute:
+  if (change < 0) {
+    change = (60 - thisSecond) + lastSecond;
+  }
+
+````
+
+Here's an accurate way to describe the problem:
+
+* get currentSecond
+* If there's a difference from  lastSecond,  increment  elapsedTime
+* If  elapsedTime divides evenly by the interval, take action
+save current seconds as lastSecond for comparison next time
+
+THe [RTCInterval example]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/RTCInterval/RTCInterval.ino) shows how to implement this.
+
 ### Tracking Uptime
 
 It's often useful to track how long your microcontroller has been running.  In [this example]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/WiFiTimeSet/WiFiTimeSet.ino), you can see that in action. It uses some some time difference calculations similar to the JavaScript ones above  in the [`getUptime` function (line 122)]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/WiFiTimeSet/WiFiTimeSet.ino#L122).  Because you're working in integers, the math can be simpler:
