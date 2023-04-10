@@ -119,30 +119,42 @@ Sometimes you need something to happen periodically. The Arduino RTCZero library
 ````
 But this doesn't work consistently. Why? The seconds roll over. 
 
-How far apart are the times 11:59:53 and 12:00:03?  They're ten seconds apart. The formula above would give you -50 which is not right. A quick way around this is to use the absolute value:
+How far apart are the times 11:59:53 and 12:00:03?  They're ten seconds apart. The formula above would give you -50 which is not right. If the current second is less than `interval` seconds from the minute, you need to account for that. Here's a way to do that:
 ````arduino
-  if (abs(thisSecond - lastReadTime) >= interval) {
-    // the interval has passed.
-  }
-````
-With this formula, you'd get 50 seconds difference. This is still wrong, but it's greater than your interval. So for many cases it works fine. An accurate way to check for change islike this:
-````arduino
+  // check for change:
   int change = thisSecond - lastSecond;
-  // difference is negative at the top of the minute:
+  // if the change is negative, you're close to the minute:
   if (change < 0) {
-    change = (60 - thisSecond) + lastSecond;
+    change = (60 - lastSecond) + thisSecond;
   }
-
+  if (change >= interval) {
+    Serial.println("Interval has passed");
+    // update lastSecond:
+    lastSecond = thisSecond;
+  }
+````
+ [This example]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/RTCIntervalAlternate/RTCIntervalAlternate.ino) shows how to implement this. 
+ 
+ Another way to handle this is by tracking the elapsed time and making it roll over every interval, like so:
+````arduino
+  // get the current seconds:
+  int thisSecond = rtc.getSeconds();
+  // if there's a difference:
+  if (lastSecond != thisSecond) {
+    // increment elapsed time
+    elapsedTime++;
+    // modulo it with the interval so it rolls over every interval:
+    elapsedTime %= interval;
+    // when the interval passes, update:
+    if (elapsedTime == 0) {
+        Serial.println("Interval has passed");
+    }
+    // update lastSecond:
+    lastSecond = thisSecond;
+  }
 ````
 
-Here's an accurate way to describe the problem:
-
-* get currentSecond
-* If there's a difference from  lastSecond,  increment  elapsedTime
-* If  elapsedTime divides evenly by the interval, take action
-save current seconds as lastSecond for comparison next time
-
-THe [RTCInterval example]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/RTCInterval/RTCInterval.ino) shows how to implement this.
+The [RTCInterval example]({{site.codeurl}}/Microcontroller_Time_Setting_Methods/RTCInterval/RTCInterval.ino) shows how to implement this.
 
 ### Tracking Uptime
 

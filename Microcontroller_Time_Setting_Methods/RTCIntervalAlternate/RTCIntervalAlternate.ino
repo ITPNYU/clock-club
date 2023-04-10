@@ -31,18 +31,18 @@ void setup() {
 void loop() {
   // get the current seconds:
   int thisSecond = rtc.getSeconds();
-  // if there's a difference:
-  if (lastSecond != thisSecond) {
-    // increment elapsed time
-    elapsedTime++;
-    // modulo it with the interval so it rolls over every interval:
-    elapsedTime %= interval;
-    // when the interval passes, update us:
-    if (elapsedTime == 0) {
-      Serial.print(interval);
-      Serial.print(" seconds have passed. Current second: ");
-      Serial.println(thisSecond);
-    }
+  // check for change:
+  int change = thisSecond - lastSecond;
+  // if the change is negative, combine the remainder of
+  // the last minute and what's passed of this minute:
+  if (change < 0) {
+    change = (60 - lastSecond) + thisSecond;
+  }
+  // see if the interval has passed:
+  if (change >= interval) {
+    Serial.print(interval);
+    Serial.print(" seconds have passed. Current second: ");
+    Serial.println(thisSecond);
     // update lastSecond:
     lastSecond = thisSecond;
   }
