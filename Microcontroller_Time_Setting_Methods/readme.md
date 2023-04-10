@@ -3,9 +3,10 @@
 
 Setting the time on any microcontroller-driven clock is an important task, one most people avoid when planning the clock.  This repo offers a couple of solutions to the problem of setting the time. 
 
- Michael Margolis' [Time library](https://www.arduino.cc/reference/en/libraries/time/) (now maintained by Paul Stoffregen) contains an example which uses the POSIX epoch string to set the time as a single number. Paul's Time library is the easiest way to deal with time if you're using a microcontroller with no realtime clock. It can also handle external realtime clocks as well. 
- 
  If you're using the Nano 33 IoT, the MKR series Arduinos, or any of the microcontrollers with the ARM M0+ processor, the [Arduino RTC library](https://www.arduino.cc/en/Reference/RTC) does a good job as well.
+
+There are a few other Time libraries as well. Michael Margolis' [Time library](https://www.arduino.cc/reference/en/libraries/time/) (now maintained by Paul Stoffregen) is an way to deal with time if you're using a microcontroller with no realtime clock. It can also handle external realtime clocks as well. Adafruit's [RTCLib](https://github.com/adafruit/RTClib), a fork of JeeLabs' RTC lib, is also very good and works with a number of different RTCs.
+ 
 
 There are a few ways of setting a realtime clock once you have one:
 
